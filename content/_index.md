@@ -10,20 +10,20 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      title: GBA HCI Pre-CHI 2025
+      text: April 12th, 2025 in City University of Hong Kong
       primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: Pre-Register
+        url: "https://www.wjx.cn/vm/QfP0AeW.aspx"
         icon: rocket-launch
       secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
+        text: Pre-CHI 2024
+        url: https://gbahci.com/prechi/
       announcement:
-        text: "Announcing the release of version 1."
+        text: "Stay tuned, and more details will be announced later."
         link:
-          text: "Read more"
-          url: "/blog/"
+          text: "Pre-registration link"
+          url: "https://www.wjx.cn/vm/QfP0AeW.aspx"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -34,7 +34,7 @@ sections:
         color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
+          filename: bg-gba.jpg
           filters:
             brightness: 0.5
   - block: stats
