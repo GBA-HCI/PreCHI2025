@@ -8,23 +8,23 @@ appearance:
   # mode: light
   color: sky
 
-# SEO
-marketing:
-  seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo landing page theme powered by Hugo Blox website builder.'
-    twitter: 'GetResearchDev'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
-  verification:
-    google: ''
-    baidu: ''
+# # SEO
+# marketing:
+#   seo:
+#     site_type: Person
+#     local_business_type: ''
+#     org_name: ''
+#     description: 'A highly-customizable Hugo landing page theme powered by Hugo Blox website builder.'
+#     twitter: 'GetResearchDev'
+#   analytics:
+#     google_analytics: ''
+#     baidu_tongji: ''
+#     plausible: ''
+#     fathom: ''
+#     pirsch: ''
+#   verification:
+#     google: ''
+#     baidu: ''
 
 # Site header
 header:
@@ -46,6 +46,7 @@ header:
 
 # Site footer
 footer:
+  block: custom
   copyright:
     notice: '© {year} Greater Bay HCI | 粤港澳大湾区人机交互论坛'
 

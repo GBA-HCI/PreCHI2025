@@ -1,0 +1,49 @@
+{{/* Hugo Blox: Testimonials */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $title := $block.content.title | emojify | $page.RenderString }}
+{{ $text := $block.content.text | emojify | $page.RenderString }}
+
+<div class="px-8 md:px-10 md:py-10 rounded-lg flex flex-col items-center text-center justify-around">
+  {{ with $title }}
+  <div class="max-w-screen-md py-8 flex flex-col justify-between mx-auto">
+    <h2 class="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">{{.}}</h2>
+  </div>
+  {{ end }}
+  {{ with $text }}
+  <div class="text-black dark:text-gray-100 text-lg max-w-none md:text-xl prose">
+    {{ $text }}
+  </div>
+  {{end}}
+  <div class="w-full items-center text-center prose flex flex-wrap pl-12" style="column-gap: 256px; max-width: 1000px">
+    {{ range $group := $block.content.groups }}
+    <div
+      class="min-w-1/2 justify-between items-center text-center text-black dark:text-gray-100 text-lg md:text-xl prose">
+      {{ with $group.title }}
+      <h3 class="w-full pt-8 max-w-6xl text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white text-left" width="100%">{{.}}
+      </h3>
+      {{ end }}
+      <div class="w-full flex flex-wrap items-center max-w-screen-md py-4" style="column-gap: 256px; max-width: 1000px">
+        {{ range $member := $group.members }}
+        <div class="flex flex-wrap items-center justify-center space-x-3">
+          {{ $image := resources.GetMatch (path.Join "media" $member.image) }}
+          {{ with $image }}
+          {{ $image = $image.Process "Fill 256x256 center webp" }}
+          <img class="w-16 h-16 rounded-full" src="{{$image.RelPermalink}}" alt="{{$member.name | plainify}}">
+          {{ end }}
+          <div class="items-center text-left">
+            <div class="font-medium text-gray-900 dark:text-white">{{.name | emojify | $page.RenderString}}</div>
+            <div class="text-sm font-light text-gray-500 dark:text-gray-400">{{.role | emojify | $page.RenderString}}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>

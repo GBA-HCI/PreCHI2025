@@ -1,0 +1,25 @@
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{ $title := $block.content.title | emojify | $page.RenderString | safeHTML }}
+{{ $text := $block.content.text | emojify | $page.RenderString | safeHTML }}
+{{ $slider := $block.content.slider | emojify | $page.RenderString | safeHTML }}
+
+<div class="px-8 md:px-10 md:py-10 rounded-lg flex flex-col items-center text-center">
+    {{ with $title }}
+    <div class="max-w-screen-md py-8 flex flex-col justify-center mx-auto">
+      <h2 class="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">{{.}}</h2>
+    </div>
+    {{ end }}
+    {{ with $slider }}
+    <div class="text-black dark:text-gray-100 text-lg max-w-6xl md:text-xl prose pb-8" style="width: 90%">
+        {{ $slider }}
+    </div>
+    {{end}}
+    {{ with $text }}
+    <div class="text-black dark:text-gray-100 text-lg max-w-4xl md:text-xl prose">
+        {{ $text }}
+    </div>
+    {{end}}
+</div>

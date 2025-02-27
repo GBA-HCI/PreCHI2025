@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Greater Bay HCI # Website name
-baseURL: 'https://gba-hci.github.io/' # Website URL
+# baseURL: 'https://gba-hci.github.io/PreCHI2025/' # Website URL
 
 ############################
 ## PAGE OPTIONS
@@ -13,27 +13,27 @@ baseURL: 'https://gba-hci.github.io/' # Website URL
 cascade:
   # Blog post options
   - _target:
-      path: /blog/**
+      path: /program/**
       kind: page
     pager: true
     editable: true
-    hide_date: false
-    show_date_updated: true
-    reading_time: true
-    commentable: true
-    show_related: true
-    share: true
+    hide_date: true
+    show_date_updated: false
+    reading_time: false
+    commentable: false
+    show_related: false
+    share: false
     # Just use Breadcrumb for navigation on blog post pages?
-    show_breadcrumb: false
+    show_breadcrumb: true
     header:
       navbar:
         enable: true
   # Blog section options
-  - _target:
-      path: /blog/*
-      kind: section
-    # Set the listing view
-    view: date-title-summary
+  # - _target:
+  #     path: /program/*
+  #     kind: section
+  #   # Set the listing view
+  #   view: card
 
 ############################
 ## LANGUAGE

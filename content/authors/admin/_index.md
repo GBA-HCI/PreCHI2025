@@ -1,31 +1,31 @@
 ---
 # Display name
-title: 吳健雄
+title: Hanfang Lyu
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Hanfang Lyu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Hanfang Lyu
+last_name: Lyu
 
-# Status emoji
-status:
-  icon: ☕️
+# # Status emoji
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Hong Kong University of Science and Technology
+    url: https://www.hkust.edu.hk/
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# # Short bio (displayed in user profile at end of posts)
+# bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -48,12 +48,10 @@ profiles:
     label: Subscribe to my blog via RSS feed
 
 # Highlight the author in author lists? (true/false)
-highlight_name: true
+# highlight_name: true
 
 # Author's website URL
-website: ""
+# website: ""
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
-distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+

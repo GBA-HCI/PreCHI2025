@@ -1,0 +1,41 @@
+{{/* Hugo Blox: CTA Card */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{ $title := $block.content.title | emojify | $page.RenderString | safeHTML }}
+{{ $text := $block.content.text | emojify | $page.RenderString | safeHTML }}
+
+
+<div class="px-8 md:px-10 md:py-10 rounded-lg flex flex-col items-center text-center">
+  {{ with $title }}
+  <div class="max-w-screen-md p-8 flex flex-col justify-center mx-auto">
+    <h2 class="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">{{.}}</h2>
+  </div>
+  {{ end }}
+  {{ with $text }}
+  <div class="text-black dark:text-gray-100 text-lg max-w-none md:text-xl prose">
+    {{ $text }}
+  </div>
+  {{end}}
+
+  {{range $timeslot := $block.content.timeslots}}
+  <div
+    class="w-full flex flex-wrap justify-center items-center text-center mx-auto gap-x-12 text-black dark:text-gray-100 text-lg md:text-xl prose">
+    {{with $timeslot.hr}}
+    <hr class="w-full my-4" />
+    {{end}}
+    {{range $session := $timeslot.sessions}}
+    <div class="flex-1 sm:w-full">
+      <p class="text-lg"><b>{{ $timeslot.time | emojify | $page.RenderString | safeHTML }}</b> @ <i>{{ $session.location
+          | emojify | $page.RenderString | safeHTML }}</i></p>
+      <p> {{ $session.name | emojify | $page.RenderString | safeHTML }}</p>
+      <p>{{ $session.topic | emojify | $page.RenderString | safeHTML }}</p>
+    </div>
+    {{end}}
+  </div>
+  {{end}}
+</div>

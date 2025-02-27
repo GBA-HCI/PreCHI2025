@@ -3,18 +3,21 @@
 #   The `weight` parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
-    url: /#top
+  - name: About
+    url: /#about
     weight: 10
-  - name: Features
-    url: /#features
+  - name: Program (TBD)
+    url: /#program
     weight: 20
-  - name: Solutions
-    url: /#solutions
+  - name: Venue
+    url: /#venue
     weight: 30
-  - name: Resources
+  - name: Gallery
+    url: /#gallery
     weight: 40
-    hasChildren: true
-  - parent: Resources
-    name: Blog
-    url: blog/
+  - name: People
+    url: /#people
+    weight: 50
+  - name: Sponsors
+    url: /#sponsor
+    weight: 60
