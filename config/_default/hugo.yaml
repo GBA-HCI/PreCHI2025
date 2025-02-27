@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Greater Bay HCI # Website name
-# baseURL: 'https://gba-hci.github.io/PreCHI2025/' # Website URL
+baseURL: 'https://gba-hci.github.io/PreCHI2025/' # Website URL
 
 ############################
 ## PAGE OPTIONS
