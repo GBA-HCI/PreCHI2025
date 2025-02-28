@@ -104,7 +104,7 @@ sections:
       本研讨会旨在为中国大湾区的人机交互（HCI）研究者提供一个分享他们近期研究工作的平台，这些工作包括即将在ACM CHI2025 会议上发表的论文成果以及其他在HCI相关会议发表的工作。正如此次活动的名称所示，我们期望这是为即将在ACM CHI会议上发表论文的作者们提供一个舞台，同时也欢迎在HCI会议上有发表记录的其他研究者参与。我们还会组织海报展示会，为那些正在进行和尚未提交的研究工作提供展示空间。该活动为期一天，只限现场参与。
 
 
-      **General Chairs**: Prof. Can Liu and Prof. Yuhan Luo 
+      <b>General Chairs</b>: Prof. Can Liu and Prof. Yuhan Luo 
       '
     design:
       text:
@@ -172,7 +172,7 @@ sections:
           - name: "Dinner"
             location: "City Chinese Restaurant, 8/F, Bank of China (Hong Kong) Complex"
     design:
-      css_class: "bg-gray-100 dark:bg-gray-900"
+      css_class: "bg-gray-100 dark:bg-transparent"
   - block: my-card
     id: venue
     content:
@@ -202,7 +202,7 @@ sections:
         Stay tuned, and more details will be announced later.
       
     design:
-      css_class: "bg-gray-100 dark:bg-gray-900"
+      css_class: "bg-gray-100 dark:bg-transparent"
   - block: people
     id: people
     content:
@@ -251,7 +251,7 @@ sections:
       text: "Call for Student Volunteers"
       groups:
     design:
-      css_class: "bg-gray-100 dark:bg-gray-900"
+      css_class: "bg-gray-100 dark:bg-transparent"
   - block: my-card
     id: sponsor
     content:
@@ -277,7 +277,7 @@ sections:
 #             for support
 #     design:
 #       # Section background color (CSS class)
-#       css_class: "bg-gray-100 dark:bg-gray-900"
+#       css_class: "bg-gray-100 dark:bg-transparent"
 #       # Reduce spacing
 #       spacing:
 #         padding: ["1rem", 0, "1rem", 0]
@@ -335,7 +335,7 @@ sections:
 #             url: https://discord.gg/z8wNYzb
 #     design:
 #       # Section background color (CSS class)
-#       css_class: "bg-gray-100 dark:bg-gray-900"
+#       css_class: "bg-gray-100 dark:bg-transparent"
 #   - block: testimonials
 #     content:
 #       title: ""
