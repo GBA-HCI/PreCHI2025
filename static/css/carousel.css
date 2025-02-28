@@ -43,7 +43,7 @@
 }
 
 .carousel ul li>img {
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .carousel ul li>div {
