@@ -10,6 +10,11 @@ design:
 sections:
   - block: hero
     content:
+      image:
+        # Add your image background to `assets/media/`.
+        filename: bg-gba.jpg
+        filters:
+          brightness: 0.5
       title: GBA HCI Pre-CHI 2025
       text: April 12th, 2025 in City University of Hong Kong
       primary_action:
@@ -211,12 +216,12 @@ sections:
       groups:
         - title: "General Chair"
           members:
-            - name: "Prof. Can Liu"
-              role: "City University of Hong Kong"
-              image: people/CanLiu.jpeg
             - name: "Prof. Yuhan Luo"
               role: "City University of Hong Kong"
               image: people/YuhanLuo.jpg
+            - name: "Prof. Can Liu"
+              role: "City University of Hong Kong"
+              image: people/CanLiu.jpeg
         - title: "Program Chair"
           members:
             - name: "Prof. Xiaoyu Zhang"
