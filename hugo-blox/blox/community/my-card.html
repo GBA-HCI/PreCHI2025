@@ -18,7 +18,7 @@
     <h2 class="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">{{.}}</h2>
   </div>
   {{ end }}
-  <div class="{{with $text_class}}{{.}}{{else}}text-black dark:text-gray-100{{end}} text-lg max-w-4xl md:text-xl prose"
+  <div class="{{with $text_class}}{{.}}{{else}}text-black dark:text-gray-100{{end}} text-lg max-w-4xl md:text-xl prose dark:prose-invert"
     {{with $text_style}}style="{{. | safeCSS}}" {{end}}>
     {{ $text }}
   </div>

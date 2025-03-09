@@ -1,0 +1,38 @@
+{{ $url := (printf "%s/comentario.js" (site.Params.features.comment.comentario.url | default
+"https://csz196.cse.ust.hk/prechi/comentario")) }}
+<script defer src="{{$url}}"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const themeToggleButton = document.querySelector('.theme-toggle');
+        const comentarioElement = document.querySelector('comentario-comments');
+
+        // Function to apply the theme
+        function applyTheme(theme) {
+            document.body.classList.toggle('dark-mode', theme === 'dark');
+            if (comentarioElement) {
+                comentarioElement.setAttribute('theme', theme); // Update comentario-comments theme
+            }
+        }
+
+        // Retrieve and apply saved theme
+        if ("wc-color-theme" in localStorage) {
+          localStorage.getItem("wc-color-theme") === "dark" ? applyTheme("dark") : applyTheme("light");
+        } else {
+          window.hbb.defaultTheme === "dark" ? applyTheme("dark") : applyTheme("light");
+          if (window.hbb.defaultTheme === "system") {
+            window.matchMedia("(prefers-color-scheme: dark)").matches ? applyTheme("dark") : applyTheme("light");
+          }
+        }
+
+        // Toggle theme on button click
+        themeToggleButton.addEventListener('click', function () {
+            const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+            applyTheme(newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+    });
+</script>
+<comentario-comments id="comentario" {{ with resources.Get site.Params.features.comment.comentario.css | minify | fingerprint }}
+    css-override="{{.Permalink}}" {{end}}></comentario-comments>

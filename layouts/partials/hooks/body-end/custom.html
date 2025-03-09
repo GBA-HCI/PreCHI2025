@@ -1,3 +1,3 @@
-<script type="text/javascript" src="js/carousel.js"></script>
-<link rel="stylesheet" href="css/carousel.css">
+<script type="text/javascript" {{ with resources.Get "js/carousel.js" | minify | fingerprint }} src= {{.Permalink}} {{end}}></script>
+<link rel="stylesheet" {{ with resources.Get "css/themes/carousel.css" | minify | fingerprint }} href= {{.Permalink}} {{ end }} />
 <noscript>Please enable JavaScript to load the comments.</noscript>

@@ -51,7 +51,7 @@
   {{ if not (fileExists (printf "assets/%s" $theme_path)) }}
     {{ errorf "The specified color theme `%s.css` was not found in `assets/css/themes/`. Either install your custom color theme in the folder or set the `color` theme value in `params.yaml` to an existing theme such as `blue`." $theme_name }}
   {{ else }}
-    {{ $theme_css := resources.Get $theme_path | minify }}
+    {{ $theme_css := resources.Get $theme_path | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $theme_css.RelPermalink }}" />
   {{ end }}
 

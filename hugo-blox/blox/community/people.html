@@ -15,14 +15,14 @@
   </div>
   {{ end }}
   {{ with $text }}
-  <div class="text-black dark:text-gray-100 text-lg max-w-none md:text-xl prose">
+  <div class="text-black dark:text-gray-100 text-lg max-w-none md:text-xl prose dark:prose-invert">
     {{ $text }}
   </div>
   {{end}}
-  <div class="w-full items-center text-center prose flex flex-wrap pl-12" style="column-gap: 256px; max-width: 1000px">
+  <div class="w-full items-center text-center prose dark:prose-invert flex flex-wrap pl-12" style="column-gap: 256px; max-width: 1000px">
     {{ range $group := $block.content.groups }}
     <div
-      class="min-w-1/2 justify-between items-center text-center text-black dark:text-gray-100 text-lg md:text-xl prose">
+      class="min-w-1/2 justify-between items-center text-center text-black dark:text-gray-100 text-lg md:text-xl prose dark:prose-invert">
       {{ with $group.title }}
       <h3 class="w-full pt-8 max-w-6xl text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white text-left" width="100%">{{.}}
       </h3>

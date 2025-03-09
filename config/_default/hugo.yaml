@@ -5,6 +5,7 @@
 
 title: Greater Bay HCI # Website name
 baseURL: 'https://gbahci.com/prechi2025' # Website URL
+# baseURL: 'https://csz196.cse.ust.hk/prechi2025/' # Website URL
 
 ############################
 ## PAGE OPTIONS
@@ -18,10 +19,11 @@ cascade:
     pager: true
     editable: true
     hide_date: true
+    show_date: false
     show_date_updated: false
     reading_time: false
-    commentable: false
-    show_related: false
+    commentable: true
+    show_related: true
     share: false
     # Just use Breadcrumb for navigation on blog post pages?
     show_breadcrumb: true
