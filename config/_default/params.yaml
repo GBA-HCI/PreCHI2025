@@ -39,8 +39,8 @@ header:
       # filename: "gba-logo.png"
     button:
       enable: true
-      text: "Pre-Register"
-      url: "https://www.wjx.cn/vm/QfP0AeW.aspx"
+      text: "Register Now"
+      url: "https://bespoke-profiterole-9c46e8.netlify.app/"
     show_search: true
     show_theme_chooser: true
 

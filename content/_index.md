@@ -18,17 +18,11 @@ sections:
       title: GBA HCI Pre-CHI 2025
       text: April 12th, 2025 in City University of Hong Kong
       primary_action:
-        text: Pre-Register
-        url: "https://www.wjx.cn/vm/QfP0AeW.aspx"
-        icon: rocket-launch
+        text: Register a Talk/Poster
+        url: "https://bespoke-profiterole-9c46e8.netlify.app/"
       secondary_action:
-        text: Pre-CHI 2024
-        url: https://gbahci.com/prechi/
-      announcement:
-        text: "Stay tuned, and more details will be announced later."
-        link:
-          text: "Pre-registration link"
-          url: "https://www.wjx.cn/vm/QfP0AeW.aspx"
+        text: Register as an Audience
+        url: https://beamish-marzipan-ec0d47.netlify.app/
     design:
       spacing:
         padding: [0, 0, 0, 0]
