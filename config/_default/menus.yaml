@@ -15,7 +15,7 @@ main:
   - name: Gallery
     url: /#gallery
     weight: 40
-  - name: People
+  - name: Organizers
     url: /#people
     weight: 50
   - name: Sponsors

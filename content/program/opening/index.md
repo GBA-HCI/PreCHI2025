@@ -1,17 +1,32 @@
 ---
 title: Opening Keynote
-summary: "9:00 - 9:20 @Yeung LT-17"
-date: 2025-02-26
 
-# Featured image
-# # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
-# image:
-#   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+weight: 2
 
-authors:
-  -
+type: event
 
-tags:
+event: "Pre-CHI Forum 2025"
+event_url: https://gbahci.com/prechi2025
+
+location: CMC M505
+
+summary: ""
+abstract:
+
+# Talk start and end times.
+#   End time can optionally be hidden by prefixing the line with `#`.
+date: 2025-04-12 09:20:00 +0800
+date_end: 2025-04-12 09:50:00 +0800
+all_day: false
+
+# Schedule page publish date (NOT talk date).
+publishDate: '2025-03-11'
+
+
+tags: ["keynote"]
+
+# Is this a featured talk? (true/false)
+featured: true
 
 ---
 

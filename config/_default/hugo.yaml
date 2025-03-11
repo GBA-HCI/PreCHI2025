@@ -18,8 +18,8 @@ cascade:
       kind: page
     pager: true
     editable: true
-    hide_date: true
-    show_date: false
+    hide_date: false
+    show_date: true
     show_date_updated: false
     reading_time: false
     commentable: true
@@ -31,11 +31,11 @@ cascade:
       navbar:
         enable: true
   # Blog section options
-  # - _target:
-  #     path: /program/*
-  #     kind: section
-  #   # Set the listing view
-  #   view: card
+  - _target:
+      path: /program/*
+      kind: section
+    # Set the listing view
+    view: card
 
 ############################
 ## LANGUAGE

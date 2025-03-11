@@ -97,13 +97,16 @@ sections:
       </div>
 
 
-      GBA Pre-CHI 2025 aims to provide a dedicated platform for Human-Computer Interaction (HCI) researchers from the Greater Bay Area (GBA) of China to share their work that is in progress, to be published or has been published at the premiere HCI venues. As the name of the forum suggests, we envision it as a stage for prospective authors to present at the upcoming ACM CHI Conference while also inviting other researchers with publication records to HCI conferences. This one-day event will be held exclusively on-site, with no virtual participation available. 
+      GBA Pre-CHI 2025 aims to provide a dedicated platform for HCI researchers from the Greater Bay Area (GBA) of China to share their latest work. This includes research to be published at ACM CHI 2025 or other premiere HCI venues, as well as ongoing and exploratory work showcased through poster sessions. There are still slots available for presentations and posters. We welcome more presenters from the GBA region to join us!
 
 
-      本研讨会旨在为中国大湾区的人机交互（HCI）研究者提供一个分享他们近期研究工作的平台，这些工作包括即将在ACM CHI2025 会议上发表的论文成果以及其他在HCI相关会议发表的工作。正如此次活动的名称所示，我们期望这是为即将在ACM CHI会议上发表论文的作者们提供一个舞台，同时也欢迎在HCI会议上有发表记录的其他研究者参与。我们还会组织海报展示会，为那些正在进行和尚未提交的研究工作提供展示空间。该活动为期一天，只限现场参与。
+      This one-day event will be held exclusively on-site, offering participants an excellent opportunity for face-to-face academic exchanges and collaboration within the HCI community.
 
 
-      <b>General Chairs</b>: Prof. Can Liu and Prof. Yuhan Luo 
+      GBA Pre-CHI 2025 旨在为中国大湾区（Greater Bay Area, GBA）的人机交互（Human-Computer Interaction, HCI）研究者提供一个分享和交流其最新研究成果的平台。无论是即将在 ACM CHI 2025 上发表的论文，还是近期在其他顶级 HCI 会议上发表的研究，均可在本次研讨会上展示。活动同时设有海报展示，为尚未提交或正在进行的研究提供交流机会。目前仍有部分报告和展报名额，欢迎大湾区的学生和老师们继续踊跃报名。
+      
+
+      本次研讨会为期一天，仅限线下进行。我们期待与来自大湾区及其他地区的学者共同探讨 HCI 领域的前沿问题，并通过面对面的交流促进学术合作与创新。
       '
     design:
       text:
@@ -114,25 +117,28 @@ sections:
     id: program
     content:
       title: "Tentative Program"
-      text: '[[program details]]({{< relref "/program" >}})'
+      text: 
       timeslots:
         - time: "09:00 - 09:20"
+          title: Welcome Reception
           sessions: 
-          - name: "Welcome Reception"
+          - name: '[leave your comments]({{< relref "/program/welcome" >}})'
             location: "Yeung LT-17"
         - time: 09:20 - 09:50
+          title: Opening Keynote
           sessions: 
-          - name: Opening Keynote
+          - name: 
             location: CMC M505
         - time: 10:00 - 12:00
           hr: 1
+          title: Session A
           sessions: 
-          - name: Session A-1
+          - name: A-1 Track
             location: Yeung LT-17
-            topic: TBD
-          - name: Session A-2
+            topic: 'GenAI in everyday life'
+          - name: A-2 Track
             location: Yeung LT-18
-            topic: TBD
+            topic: Technology-Enhanced Learning 
         - time: 12:00 - 13:00
           hr: 1
           sessions: 
@@ -140,35 +146,39 @@ sections:
             location: "The Hall Way between LT-17 and LT-18"
         - time: 13:00 - 15:15
           hr: 1
+          title: Session B
           sessions: 
-          - name: Session B-1
+          - name: B-1 Track
             location: Yeung LT-17
-            topic: TBD
-          - name: Session B-2
+            topic: Interactive Systems and Data Visualization
+          - name: B-2 Track
             location: Yeung LT-18
-            topic: TBD
+            topic: Collaborative and Creative Research Methodology
         - time: 15:15 - 16:00
           hr: 1
           sessions: 
-          - name: "Tea Break & Poster"
+          - name: "Tea Break and Poster Session"
             location: "The Hall Way between LT-17 and LT-18"
         - time: 16:00 - 18:00
           hr: 1
+          title: Session C
           sessions: 
-          - name: Session C-1
+          - name: C-1 Track
             location: LT-17
-            topic: TBD
-          - name: Session C-2
+            topic: Human-Centered Healthcare
+          - name: C-2 Track
             location: LT-18
-            topic: TBD  
+            topic: Interaction in VR/AR  
         - time: 18:00 - 18:30
           hr: 1
+          title: "Closing Keynote and Award Ceremony"
           sessions: 
-          - name: "Closing Keynote & Award Ceremony"
+          - name: 
             location: "LT-17"
         - time: 18:45 - 20:30
+          title: "Conference Dinner"
           sessions: 
-          - name: "Dinner"
+          - name: 
             location: "City Chinese Restaurant, 8/F, Bank of China (Hong Kong) Complex"
     design:
       css_class: "bg-gray-100 dark:bg-transparent"
@@ -196,7 +206,16 @@ sections:
         {{< carousel items="1" height="680" unit="px" duration="7000" >}}
       text: |
 
-        Photos taken at the last year's Pre-CHI forum on April 2024: [[link]](https://gbahci.com/prechi/).
+        The 
+        <a href="#gallery" onclick="document.querySelector('.carousel').querySelector('ol li:first-child a').click();">
+          advertising poster
+        </a> 
+        <a href="#gallery" onclick="document.querySelector('.carousel').querySelector('ol li:first-child a').click(); document.querySelector('.carousel').querySelector('ul li:first-child img').requestFullscreen();">
+          [full]
+        </a> for Pre-CHI 2025 and 
+        <a href="#gallery" onclick="document.querySelector('.carousel').querySelector('ol li:first-child').nextElementSibling.querySelector('a').click();document.querySelector('.carousel').querySelector('ul').classList.remove('interacted');">
+          photos
+        </a> taken at [Pre-CHI 2024](https://gbahci.com/prechi/).
 
         Stay tuned, and more details will be announced later.
       
@@ -244,13 +263,6 @@ sections:
             - name: "Luoying Lin"
               role: "City University of Hong Kong"
               image: people/LuoyingLin.png
-  - block: people
-    content:
-      title: "Student Volunteers"
-      text: "Call for Student Volunteers"
-      groups:
-    design:
-      css_class: "bg-gray-100 dark:bg-transparent"
   - block: my-card
     id: sponsor
     content:
@@ -259,6 +271,8 @@ sections:
         City University of Hong Kong, Department of Computer Science
 
         K.C. Wong Education Foundation
+    design:
+      css_class: "bg-gray-100 dark:bg-transparent"
   # - block: stats
 #     content:
 #       items:

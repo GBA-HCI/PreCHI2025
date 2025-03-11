@@ -9,7 +9,7 @@
     scroll-snap-type: x mandatory;
     scroll-snap-points-y: repeat(100%);
     scroll-behavior: smooth;
-    background: grey;
+    background: gray;
     -ms-overflow-style: none;
     scrollbar-width: none;
     margin: 0;
@@ -57,11 +57,11 @@
 
 .carousel ol {
     position: absolute;
-    bottom: 15px;
+    bottom: -10px;
     display: flex;
     justify-content: center;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-57%);
     z-index: 9;
 }
 

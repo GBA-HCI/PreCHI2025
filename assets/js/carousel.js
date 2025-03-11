@@ -72,6 +72,15 @@ document.addEventListener('DOMContentLoaded', function() {
           if(e.key == 'ArrowLeft') ele.classList.add('interacted');
           if(e.key == 'ArrowRight') ele.classList.add('interacted');
       });
+      // enter/exit fullscreen
+      ele.addEventListener("click", () => {
+        if (document.fullscreenElement) {
+          // exitFullscreen is only available on the Document object.
+          document.exitFullscreen();
+        } else {
+          ele.querySelector('li.selected').querySelector('img').requestFullscreen();
+        }
+      });
 
       nextarrow.addEventListener("click", nextSlide);
       nextarrow.addEventListener("mousedown", setInteracted);
