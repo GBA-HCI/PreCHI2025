@@ -127,7 +127,10 @@ sections:
         - time: 09:20 - 09:50
           title: Opening Keynote
           sessions: 
-          - name: 
+          - name: |
+                  Prof. Xiaohua Sun
+                  
+                  Southern University of Science and Technology
             location: CMC M505
         - time: 10:00 - 12:00
           hr: 1
@@ -171,15 +174,23 @@ sections:
             topic: Interaction in VR/AR  
         - time: 18:00 - 18:30
           hr: 1
-          title: "Closing Keynote and Award Ceremony"
+          title: "Closing Keynote"
           sessions: 
-          - name: 
+          - name: |
+                   Prof. Haining Liang
+
+                   The Hong Kong University of Science and Technology (Guangzhou)
             location: "LT-17"
-        - time: 18:45 - 20:30
-          title: "Conference Dinner"
-          sessions: 
+        - time: 18:30 - 18:50
+          title: "Award Ceremony"
+          sessions:
           - name: 
-            location: "City Chinese Restaurant, 8/F, Bank of China (Hong Kong) Complex"
+            location: "LT-17" 
+        # - time: 18:45 - 20:30
+        #   title: "Conference Dinner"
+        #   sessions: 
+        #   - name: 
+        #     location: "City Chinese Restaurant, 8/F, Bank of China (Hong Kong) Complex"
     design:
       css_class: "bg-gray-100 dark:bg-transparent"
   - block: my-card
