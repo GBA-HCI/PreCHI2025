@@ -34,9 +34,11 @@ header:
     align: "center"
     fixed_to_top: true
     logo:
-      text: "Greater Bay HCI"
+      text: "Pre-CHI 2025"
       # Logo filename in `assets/media/` folder
-      # filename: "gba-logo.png"
+      filename: 
+        light_mode: "gba-logo.svg"
+        dark_mode: "gba-logo-dark-mode.svg"
     button:
       enable: true
       text: "Register Now"
