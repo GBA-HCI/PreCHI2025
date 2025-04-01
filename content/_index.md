@@ -18,7 +18,7 @@ sections:
       title: GBA HCI Pre-CHI 2025
       text: April 12th, 2025 in City University of Hong Kong
       primary_action:
-        text: Register as an Audience
+        text: Register Now
         url: "https://beamish-marzipan-ec0d47.netlify.app/"
       secondary_action:
         text: View our program
