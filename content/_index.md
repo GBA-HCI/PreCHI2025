@@ -18,11 +18,11 @@ sections:
       title: GBA HCI Pre-CHI 2025
       text: April 12th, 2025 in City University of Hong Kong
       primary_action:
-        text: Register a Talk/Poster
-        url: "https://bespoke-profiterole-9c46e8.netlify.app/"
-      secondary_action:
         text: Register as an Audience
-        url: https://beamish-marzipan-ec0d47.netlify.app/
+        url: "https://beamish-marzipan-ec0d47.netlify.app/"
+      secondary_action:
+        text: View our program
+        url: "#program"
     design:
       spacing:
         padding: [0, 0, 0, 0]

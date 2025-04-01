@@ -42,7 +42,7 @@ header:
     button:
       enable: true
       text: "Register Now"
-      url: "https://bespoke-profiterole-9c46e8.netlify.app/"
+      url: "https://beamish-marzipan-ec0d47.netlify.app/"
     show_search: true
     show_theme_chooser: true
 
