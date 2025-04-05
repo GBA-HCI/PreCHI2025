@@ -2,21 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Keynote | Greater Bay HCI</title>
-    <link>https://gbahci.com/prechi2025/tag/keynote/</link>
-      <atom:link href="https://gbahci.com/prechi2025/tag/keynote/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/prechi2025/tag/keynote/</link>
+      <atom:link href="http://localhost:1313/prechi2025/tag/keynote/index.xml" rel="self" type="application/rss+xml" />
     <description>Keynote</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 12 Apr 2025 09:20:00 +0800</lastBuildDate>
     <image>
-      <url>https://gbahci.com/prechi2025/media/icon_hu_98056d0460235853.png</url>
+      <url>http://localhost:1313/prechi2025/media/icon_hu_98056d0460235853.png</url>
       <title>Keynote</title>
-      <link>https://gbahci.com/prechi2025/tag/keynote/</link>
+      <link>http://localhost:1313/prechi2025/tag/keynote/</link>
     </image>
     
     <item>
       <title>Opening Keynote</title>
-      <link>https://gbahci.com/prechi2025/program/opening/</link>
+      <link>http://localhost:1313/prechi2025/program/opening/</link>
       <pubDate>Sat, 12 Apr 2025 09:20:00 +0800</pubDate>
-      <guid>https://gbahci.com/prechi2025/program/opening/</guid>
+      <guid>http://localhost:1313/prechi2025/program/opening/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Closing Keynote</title>
+      <link>http://localhost:1313/prechi2025/program/closing/</link>
+      <pubDate>Sat, 12 Apr 2025 09:20:00 +0800</pubDate>
+      <guid>http://localhost:1313/prechi2025/program/closing/</guid>
       <description></description>
     </item>
     

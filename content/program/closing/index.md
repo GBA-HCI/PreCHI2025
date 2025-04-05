@@ -1,7 +1,7 @@
 ---
-title: Opening Keynote
+title: Closing Keynote
 
-weight: 2
+weight: 9
 
 type: event
 

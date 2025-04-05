@@ -116,76 +116,88 @@ sections:
   - block: program
     id: program
     content:
-      title: "Tentative Program"
+      title: "Program"
       text: 
       timeslots:
         - time: "09:00 - 09:20"
           title: Welcome Reception
           sessions: 
-          - name: '[leave your comments]({{< relref "/program/welcome" >}})'
+          - topic: 'leave your comments'
             location: "Yeung LT-17"
+            link: "program/welcome"
         - time: 09:20 - 09:50
           title: Opening Keynote
           sessions: 
-          - name: |
-                  Prof. Xiaohua Sun
+          - topic: |
+                  **Prof. Xiaohua Sun**
                   
-                  Southern University of Science and Technology
-            location: CMC M505
+                  *Southern University of Science and Technology*
+            location: Yeung LT-17
+            link: "program/opening"
         - time: 10:00 - 12:00
           hr: 1
-          title: Session A
+          title: Presentation Session 1
           sessions: 
-          - name: A-1 Track
+          - name: 'Session A1'
             location: Yeung LT-17
-            topic: 'GenAI in everyday life'
-          - name: A-2 Track
+            topic: 'GenAI-Enhanced Communication'
+            link: "program/session_a1"
+          - name: 'Session B1'
             location: Yeung LT-18
-            topic: Technology-Enhanced Learning 
-        - time: 12:00 - 13:00
+            topic: 'Healthcare and Human Wellbeing'
+            link: "program/session_b1"
+        - time: 12:00 - 13:30
           hr: 1
+          title: "Lunch Break"
           sessions: 
-          - name: "Lunch Break & Poster & Group Photo Taking"
+          - name: "Lunch & Poster & Group Photo Taking"
             location: "The Hall Way between LT-17 and LT-18"
-        - time: 13:00 - 15:15
+        - time: 13:30 - 15:00
           hr: 1
-          title: Session B
+          title: Presentation Session 2
           sessions: 
-          - name: B-1 Track
+          - name: 'Session A2'
             location: Yeung LT-17
             topic: Interactive Systems and Data Visualization
-          - name: B-2 Track
+            link: "program/session_a2"
+          - name: 'Session B2'
             location: Yeung LT-18
-            topic: Collaborative and Creative Research Methodology
-        - time: 15:15 - 16:00
+            topic: New Media and Research Inspirations
+            link: "program/session_b2"
+        - time: 15:00 - 15:30
           hr: 1
+          title: "Tea Break"
           sessions: 
-          - name: "Tea Break and Poster Session"
+          - name: "Snacks & Poster Session"
             location: "The Hall Way between LT-17 and LT-18"
-        - time: 16:00 - 18:00
+        - time: 15:30 - 17:30
           hr: 1
-          title: Session C
+          title: Presentation Session 3
           sessions: 
-          - name: C-1 Track
-            location: LT-17
-            topic: Human-Centered Healthcare
-          - name: C-2 Track
-            location: LT-18
-            topic: Interaction in VR/AR  
+          - name: 'Session A3'
+            location: Yeung LT-17
+            topic: 'Technology-Enhanced Learning and Heritage'
+            link: "program/session_a3"
+          - name: 'Session B3'
+            location: Yeung LT-18
+            topic: 'Interaction in VR/AR'  
+            link: "program/session_b3"
         - time: 18:00 - 18:30
           hr: 1
           title: "Closing Keynote"
           sessions: 
-          - name: |
-                   Prof. Haining Liang
+          - topic: |
+                   **Prof. Haining Liang**
 
-                   The Hong Kong University of Science and Technology (Guangzhou)
-            location: "LT-17"
+                   *The Hong Kong University of Science and Technology (Guangzhou)*
+            location: "Yeung LT-17"
+            link: "program/closing"
         - time: 18:30 - 18:50
           title: "Award Ceremony"
           sessions:
-          - name: 
-            location: "LT-17" 
+          - topic: 'leave your comments' 
+            location: "Yeung LT-17" 
+            link: "program/welcome"
         # - time: 18:45 - 20:30
         #   title: "Conference Dinner"
         #   sessions: 
@@ -222,7 +234,7 @@ sections:
           advertising poster
         </a> 
         <a href="#gallery" onclick="document.querySelector('.carousel').querySelector('ol li:first-child a').click(); document.querySelector('.carousel').querySelector('ul li:first-child img').requestFullscreen();">
-          [full]
+          <i class="fa fa-expand" aria-hidden="true"></i>
         </a> for Pre-CHI 2025 and 
         <a href="#gallery" onclick="document.querySelector('.carousel').querySelector('ol li:first-child').nextElementSibling.querySelector('a').click();document.querySelector('.carousel').querySelector('ul').classList.remove('interacted');">
           photos

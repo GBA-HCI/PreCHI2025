@@ -5,7 +5,7 @@ weight: 100
 
 type: event
 
-event: "Pre-CHI Forum 2025"
+# event: "Pre-CHI Forum 2025"
 event_url: https://gbahci.com/prechi2025
 
 location: City University of Hong Kong
