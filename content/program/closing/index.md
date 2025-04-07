@@ -1,7 +1,7 @@
 ---
-title: Closing Keynote
+title: 'Closing Keynote - XR Gaming: Exploring Future Gameplay Experiences'
 
-weight: 9
+weight: 90
 
 type: event
 
@@ -10,7 +10,7 @@ event_url: https://gbahci.com/prechi2025
 
 location: Yeung LT-17
 
-summary: ""
+summary: "XR Gaming: Exploring Future Gameplay Experiences"
 abstract:
 
 # Talk start and end times.
@@ -30,3 +30,6 @@ featured: true
 
 ---
 
+## XR Gaming: Exploring Future Gameplay Experiences
+
+**Speaker**: Prof. Haining Liang, *The Hong Kong University of Science and Technology (Guangzhou)*

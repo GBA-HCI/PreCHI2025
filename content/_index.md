@@ -97,13 +97,13 @@ sections:
       </div>
 
 
-      GBA Pre-CHI 2025 aims to provide a dedicated platform for HCI researchers from the Greater Bay Area (GBA) of China to share their latest work. This includes research to be published at ACM CHI 2025 or other premiere HCI venues, as well as ongoing and exploratory work showcased through poster sessions. There are still slots available for presentations and posters. We welcome more presenters from the GBA region to join us!
+      GBA Pre-CHI 2025 aims to provide a dedicated platform for HCI researchers from the Greater Bay Area (GBA) of China to share their latest work. This includes research to be published at ACM CHI 2025 or other premiere HCI venues, as well as ongoing and exploratory work showcased through poster sessions. Registration for presentations and posters is currently closed. We welcome more audiences from the GBA region to join us!
 
 
       This one-day event will be held exclusively on-site, offering participants an excellent opportunity for face-to-face academic exchanges and collaboration within the HCI community.
 
 
-      GBA Pre-CHI 2025 旨在为中国大湾区（Greater Bay Area, GBA）的人机交互（Human-Computer Interaction, HCI）研究者提供一个分享和交流其最新研究成果的平台。无论是即将在 ACM CHI 2025 上发表的论文，还是近期在其他顶级 HCI 会议上发表的研究，均可在本次研讨会上展示。活动同时设有海报展示，为尚未提交或正在进行的研究提供交流机会。目前仍有部分报告和展报名额，欢迎大湾区的学生和老师们继续踊跃报名。
+      GBA Pre-CHI 2025 旨在为中国大湾区（Greater Bay Area, GBA）的人机交互（Human-Computer Interaction, HCI）研究者提供一个分享和交流其最新研究成果的平台。无论是即将在 ACM CHI 2025 上发表的论文，还是近期在其他顶级 HCI 会议上发表的研究，均可在本次研讨会上展示。活动同时设有海报展示，为尚未提交或正在进行的研究提供交流机会。目前演讲和海报报名已截止，欢迎大湾区的学生和老师们踊跃报名参会。
       
 
       本次研讨会为期一天，仅限线下进行。我们期待与来自大湾区及其他地区的学者共同探讨 HCI 领域的前沿问题，并通过面对面的交流促进学术合作与创新。
@@ -122,82 +122,264 @@ sections:
         - time: "09:00 - 09:20"
           title: Welcome Reception
           sessions: 
-          - topic: 'leave your comments'
-            location: "Yeung LT-17"
-            link: "program/welcome"
+            - topic: 'leave your comments'
+              location: "Yeung LT-17"
+              link: "program/welcome"
         - time: 09:20 - 09:50
           title: Opening Keynote
           sessions: 
-          - topic: |
-                  **Prof. Xiaohua Sun**
-                  
-                  *Southern University of Science and Technology*
-            location: Yeung LT-17
-            link: "program/opening"
+            - name: 'Prof. Xiaohua Sun'
+              location: Yeung LT-17
+              link: "program/opening"
         - time: 10:00 - 12:00
           hr: 1
-          title: Presentation Session 1
-          sessions: 
-          - name: 'Session A1'
-            location: Yeung LT-17
-            topic: 'GenAI-Enhanced Communication'
-            link: "program/session_a1"
-          - name: 'Session B1'
-            location: Yeung LT-18
-            topic: 'Healthcare and Human Wellbeing'
-            link: "program/session_b1"
+          title: Session 1
+          sessions:             
+            - name: Session A1
+              location: Yeung LT-17
+              topic: GenAI-Enhanced Communication
+              host: Zeyu Huang
+              link: program/session_a1
+              talks:
+              - id: '#rambler-in-the-wild-a-diary-study-of-llm-assisted-writing-with-speech'
+                title: '[CHI25] Rambler in the Wild: A Diary Study of LLM-Assisted Writing With
+                  Speech'
+                speaker: Xuyu Yang
+              - id: '#scaffolded-turns-and-logical-conversations-designing-humanized-llm-powered-conversational-agents-for-hospital-admission-interviews'
+                title: '[CHI25] Scaffolded Turns and Logical Conversations: Designing Humanized
+                  LLM-Powered Conversational Agents for Hospital Admission Interviews'
+                speaker: Dingdong Liu
+              - id: '#ronaldos-a-poser-how-the-use-of-generative-ai-shapes-debates-in-online-forums'
+                title: '[CHI25] "Ronaldo''s a poser!": How the Use of Generative AI Shapes Debates
+                  in Online Forums'
+                speaker: Yuhan Zeng
+              - id: '#journalaide-empowering-older-adults-in-digital-journal-writing'
+                title: '[CHI25] JournalAIde: Empowering Older Adults in Digital Journal Writing'
+                speaker: Shixu Zhou
+              - id: '#harmonycut-supporting-creative-chinese-paper-cutting-design-with-form-and-connotation-harmony'
+                title: '[CHI25] HarmonyCut: Supporting Creative Chinese Paper-cutting Design with
+                  Form and Connotation Harmony'
+                speaker: Huanchen Wang
+              - id: '#acknowledge-a-computational-framework-for-human-compatible-affordance-based-interaction-planning-in-real-world-contexts'
+                title: '[CHI25] ACKnowledge: A Computational Framework for Human Compatible Affordance-based
+                  Interaction Planning in Real-world Contexts'
+                speaker: Ziqi Pan
+              - id: '#exploring-the-design-of-llm-based-agent-in-enhancing-self-disclosure-among-the-older-adults'
+                title: '[CHI25] Exploring the Design of LLM-based Agent in Enhancing Self-disclosure
+                  Among the Older Adults'
+                speaker: Yijie Guo
+              - id: '#exploring-the-evolvement-of-user-engagement-in-online-creative-community-under-the-surge-of-generative-ai-a-case-study-of-deviantart'
+                title: '[CSCW] Exploring the Evolvement of User Engagement in Online Creative
+                  Community under the Surge of Generative AI: A Case Study of DeviantArt'
+                speaker: Kangyu Yuan
+            - name: Session B1
+              location: Yeung LT-18
+              topic: Healthcare and Human Wellbeing
+              host: Liangwei Wang
+              link: program/session_b1
+              talks:
+              - id: '#empathy-driven-interaction-design-guest-talk'
+                title: '[Guest Talk] Empathy-Driven Interaction Design'
+                speaker: Wei Liu
+              - id: '#a-constructed-response-designing-and-choreographing-robot-arm-movements-in-collaborative-dance-improvisation'
+                title: '[CSCW] A Constructed Response: Designing and Choreographing Robot Arm
+                  Movements in Collaborative Dance Improvisation'
+                speaker: Ray Lc
+              - id: '#human-precision-medicine-interaction-public-perceptions-of-polygenic-risk-score-for-genetic-health-prediction'
+                title: '[CHI25] Human-Precision Medicine Interaction: Public Perceptions of Polygenic
+                  Risk Score for Genetic Health Prediction'
+                speaker: Yuhao Sun
+              - id: '#designing-and-evaluating-a-narrative-driven-spatial-visualization-for-improving-patient-centered-communication-among-older-adults'
+                title: '[CHI25] Designing and Evaluating a Narrative-driven Spatial Visualization
+                  for Improving Patient-centered Communication among Older Adults'
+                speaker: Jiaan Li
+              - id: '#walk-in-their-shoes-to-navigate-your-own-path-learning-about-procrastination-through-a-serious-game'
+                title: '[CHI 25] Walk in Their Shoes to Navigate Your Own Path: Learning About
+                  Procrastination Through A Serious Game'
+                speaker: Runhua Zhang
+              - id: '#customizing-emotional-support-how-do-individuals-construct-and-interact-with-llm-powered-chatbots'
+                title: '[CHI25] Customizing Emotional Support: How Do Individuals Construct and
+                  Interact With LLM-Powered Chatbots'
+                speaker: Xi Zheng
+              - id: '#signaling-human-intentions-to-service-robots-understanding-the-use-of-social-cues-during-in-person-conversations'
+                title: '[CHI25] Signaling Human Intentions to Service Robots: Understanding the
+                  Use of Social Cues during In-Person Conversations'
+                speaker: Hanfang Lyu
+              - id: '#becoming-my-own-audience-how-dancers-react-to-avatars-unlike-themselves-in-motion-capture-supported-live-improvisational-performance'
+                title: '[CHI25] "Becoming My Own Audience": How Dancers React to Avatars Unlike
+                  Themselves in Motion Capture-Supported Live Improvisational Performance'
+                speaker: Fan Zhang
+            - name: 'Panel 1'
+              topic: |
+                    From Lab to LinkedIn: Which Career Paths Await HCI Graduates
+              location: Yeung LT-15
+              link: "program/panel1"
+              host: 'Yi Xu'
+              talks:
+                - title: 'Panel Host:'
+                  speaker: 'Prof. Xiaoyu Zhang'
+                - title: 'Panelists:'
+                  speaker: |
+                    - Yun Wang (MSRA)
+                    - Wynn Lyu (Productivity HK)
+                    - Prof. Zhenhui Peng (Sat-Yat Sen University)
+                    - Prof. Yingying She (Xiamen University)
+                    
         - time: 12:00 - 13:30
           hr: 1
           title: "Lunch Break"
           sessions: 
-          - name: "Lunch & Poster & Group Photo Taking"
-            location: "The Hall Way between LT-17 and LT-18"
+            - name: "Lunch & Poster & Group Photo Taking"
+              location: "The Hall Way between LT-17 and LT-18"
         - time: 13:30 - 15:00
           hr: 1
-          title: Presentation Session 2
+          title: Session 2
           sessions: 
-          - name: 'Session A2'
-            location: Yeung LT-17
-            topic: Interactive Systems and Data Visualization
-            link: "program/session_a2"
-          - name: 'Session B2'
-            location: Yeung LT-18
-            topic: New Media and Research Inspirations
-            link: "program/session_b2"
+            - name: Session A2
+              location: Yeung LT-17
+              topic: Interactive Systems and Data Visualization
+              host: Xi Zheng
+              link: program/session_a2
+              talks:
+              - id: '#making-invisible-dynamics-visible-case-studies-in-visualizing-computational-and-behavioral-processes-guest-talk'
+                title: '[Guest Talk] Making Invisible Dynamics Visible: Case Studies in Visualizing
+                  Computational and Behavioral Processes'
+                speaker: Yuxin Ma
+              - id: '#vizta-enhancing-comprehension-of-distributional-visualization-with-visual-lexical-fused-conversational-interface'
+                title: '[EuroVis] VIzTA: Enhancing Comprehension of Distributional Visualization
+                  with Visual-Lexical Fused Conversational Interface'
+                speaker: Liangwei Wang
+              - id: '#insightbridge-enhancing-empathizing-with-users-through-real-time-information-synthesis-and-visual-communication'
+                title: '[CHI25] InsightBridge: Enhancing Empathizing with Users through Real-Time
+                  Information Synthesis and Visual Communication'
+                speaker: Yue Zhang
+              - id: '#interlink-linking-text-with-code-and-outputs-in-computational-notebooks'
+                title: '[CHI25] InterLink: Linking Text with Code and Outputs in Computational
+                  Notebooks'
+                speaker: Yanna Lin
+              - id: '#creative-blends-of-visual-concepts'
+                title: '[CHI25] Creative Blends of Visual Concepts'
+                speaker: Yaozhen Zhang
+              - id: '#gencolor-generative-color-concept-association-in-visual-design'
+                title: '[CHI25] GenColor: Generative Color-Concept Association in Visual Design'
+                speaker: Yihan Hou
+            - name: Session B2
+              location: Yeung LT-18
+              topic: New Media and Research Inspirations
+              host: Hanfang Lyu
+              link: program/session_b2
+              talks:
+              - id: '#design-futures-in-hci-design-thinking-for-digital-transformation-guest-talk'
+                title: '[Guest Talk] Design Futures in HCI: Design Thinking for Digital Transformation '
+                speaker: Zhiyong Fu
+              - id: '#designing-highly-accessible-xr-interfaces-rep'
+                title: '[REP] Designing Highly Accessible XR Interfaces'
+                speaker: Yang Tian
+              - id: '#participatory-design-in-human-computer-interaction-cases-characteristics-and-lessons'
+                title: '[CHI25] Participatory Design in Human-Computer Interaction: Cases, Characteristics,
+                  and Lessons'
+                speaker: Xiang (nathan) Qi
+              - id: '#seqr-a-user-friendly-and-secure-by-design-configurator-for-enterprise-wi-fi'
+                title: '[CHI25] SeQR: A User-Friendly and Secure-by-Design Configurator for Enterprise
+                  Wi-Fi'
+                speaker: Sze Yiu Chau
+              - id: '#using-affordance-to-understand-usability-of-web3-social-media'
+                title: '[CHI25] Using Affordance to Understand Usability of Web3 Social Media'
+                speaker: Maggie Yongqi Guan
+            - name: 'Panel 2'
+              topic: |
+                    Opportunities and Challenges in Human-Computer Interaction Research in the Greater Bay Area
+              location: Yeung LT-15
+              link: "program/panel2"
+              host: 'Zhuangtong Huang'
+              talks:
+                - title: 'Panel Host:'
+                  speaker: 'Prof. Ye Wang'
+                - title: 'Panelists:'
+                  speaker: |
+                    - Prof. Shengdong Zhao (CityUHK)
+                    - Prof. Huaming Qu (HKUST)
+                    - Prof. Boyu Gao (Jinan University)
+                    - Prof. Pengcheng An (SUSTech) 
+                    - Prof. Guihuan Feng (Nanjing University)
         - time: 15:00 - 15:30
           hr: 1
           title: "Tea Break"
           sessions: 
-          - name: "Snacks & Poster Session"
-            location: "The Hall Way between LT-17 and LT-18"
+            - name: "Snacks & Poster Session"
+              location: "The Hall Way between LT-17 and LT-18"
         - time: 15:30 - 17:30
           hr: 1
-          title: Presentation Session 3
+          title: Session 3
           sessions: 
-          - name: 'Session A3'
-            location: Yeung LT-17
-            topic: 'Technology-Enhanced Learning and Heritage'
-            link: "program/session_a3"
-          - name: 'Session B3'
-            location: Yeung LT-18
-            topic: 'Interaction in VR/AR'  
-            link: "program/session_b3"
+            - name: Session A3
+              location: Yeung LT-17
+              topic: Technology-Enhanced Learning and Heritage
+              host: Yu'an Chen
+              link: program/session_a3
+              talks:
+              - id: '#culture-inheritance-and-design-innovation-research-practice-at-milab-guest-talk'
+                title: '[Guest Talk] Culture Inheritance and Design Innovation: Research Practice
+                  at MILAB'
+                speaker: Haipeng Mi
+              - id: '#coknowledge-supporting-assimilation-of-time-synced-collective-knowledge-in-online-science-videos'
+                title: '[CHI25] CoKnowledge: Supporting Assimilation of Time-synced Collective
+                  Knowledge in Online Science Videos'
+                speaker: Yuanhao Zhang
+              - id: '#designing-llm-powered-multimodal-instructions-to-support-rich-hands-on-skills-remote-learning-a-case-study-with-massage-instructors-and-learners'
+                title: '[CHI25] Designing LLM-Powered Multimodal Instructions to Support Rich
+                  Hands-on Skills Remote Learning: A Case Study with Massage Instructors and Learners'
+                speaker: Chutian Jiang
+              - id: '#breaking-barriers-or-building-dependency-exploring-team-llm-collaboration-in-ai-infused-classroom-debate'
+                title: '[CHI25] Breaking Barriers or Building Dependency? Exploring Team-LLM Collaboration
+                  in AI-infused Classroom Debate'
+                speaker: Zihan Zhang
+              - id: '#litlinker-supporting-the-ideation-of-interdisciplinary-contexts-with-large-language-models-for-teaching-literature-in-elementary-schools'
+                title: '[CHI25] LitLinker: Supporting the Ideation of Interdisciplinary Contexts
+                  with Large Language Models for Teaching Literature in Elementary Schools'
+                speaker: Haoxiang Fan
+            - name: Session B3
+              location: Yeung LT-18
+              topic: Interaction in VR/AR
+              host: Yuan Xu
+              link: program/session_b3
+              talks:
+              - id: '#gazepuffer-hands-free-input-method-leveraging-puff-cheeks-for-vr-guest-talk'
+                title: '[Guest Talk] GazePuffer : Hands-Free Input Method Leveraging Puff Cheeks
+                  for VR'
+                speaker: Minghui Sun
+              - id: '#aiget-transforming-everyday-moments-into-hidden-knowledge-discovery-with-ai-assistance-on-smart-glasses'
+                title: '[CHI25] AiGet: Transforming Everyday Moments into Hidden Knowledge Discovery
+                  with AI Assistance on Smart Glasses'
+                speaker: Runze Cai
+              - id: '#augmenting-realistic-charts-with-virtual-overlays'
+                title: '[CHI25] Augmenting Realistic Charts with Virtual Overlays'
+                speaker: Yao Shi
+              - id: '#modeling-locomotion-with-body-angular-movements-in-virtual-reality'
+                title: '[CHI25] Modeling Locomotion with Body Angular Movements in Virtual Reality'
+                speaker: Zijun Mai
+              - id: '#vrcaptions-design-captions-for-dhh-users-in-multiplayer-communication-in-vr'
+                title: '[CHI25] VRCaptions: Design Captions for DHH Users in Multiplayer Communication
+                  in VR'
+                speaker: Tianze Xie
+              - id: '#reachpad-interacting-with-multiple-virtual-screens-using-a-single-physical-pad-through-haptic-retargeting'
+                title: '[CHI25] ReachPad: Interacting with Multiple Virtual Screens using a Single
+                  Physical Pad through Haptic Retargeting'
+                speaker: Han Shi
         - time: 18:00 - 18:30
           hr: 1
           title: "Closing Keynote"
           sessions: 
-          - topic: |
-                   **Prof. Haining Liang**
-
-                   *The Hong Kong University of Science and Technology (Guangzhou)*
-            location: "Yeung LT-17"
-            link: "program/closing"
+            - name: Prof. Haining Liang
+              topic: 'XR Gaming: Exploring Future Gameplay Experiences'
+              location: "Yeung LT-17"
+              link: "program/closing"
         - time: 18:30 - 18:50
           title: "Award Ceremony"
           sessions:
-          - topic: 'leave your comments' 
-            location: "Yeung LT-17" 
-            link: "program/welcome"
+            - topic: 'leave your comments' 
+              location: "Yeung LT-17" 
+              link: "program/welcome"
         # - time: 18:45 - 20:30
         #   title: "Conference Dinner"
         #   sessions: 

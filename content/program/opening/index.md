@@ -1,7 +1,7 @@
 ---
 title: Opening Keynote
 
-weight: 2
+weight: 20
 
 type: event
 
@@ -30,3 +30,5 @@ featured: true
 
 ---
 
+
+**Speaker**: Prof. Xiaohua Sun, *Southern University of Science and Technology*

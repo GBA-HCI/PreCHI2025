@@ -1,7 +1,7 @@
 ---
 title: Leave Your Mark on Pre-CHI 2025
 
-weight: 100
+weight: 1000
 
 type: event
 

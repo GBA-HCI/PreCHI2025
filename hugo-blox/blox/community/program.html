@@ -10,7 +10,7 @@
 {{ $text := $block.content.text | emojify | $page.RenderString | safeHTML }}
 
 
-<div class="px-8 md:px-10 md:py-10 rounded-lg flex flex-col items-center text-center">
+<div class="px-8 md:px-10 md:py-10 rounded-lg flex flex-col items-center text-center max-w-screen-xl mx-auto">
   {{ with $title }}
   <div class="max-w-screen-md p-8 flex flex-col justify-center mx-auto">
     <h2 class="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">{{.}}</h2>
@@ -29,24 +29,51 @@
     <hr class="w-full my-4" />
     {{end}}
     {{ with $timeslot.title }}
-    <div class="max-w-screen-md w-full p-2 justify-center mx-auto">
+    <div class="w-full p-2 justify-center max-w-screen-xl mx-auto">
       <h3 class="text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">{{. | emojify |
         $page.RenderString | safeHTML}}</h3>
       <b>{{ $timeslot.time | emojify | $page.RenderString | safeHTML }}</b>
     </div>
     {{ end }}
     {{range $session := $timeslot.sessions}}
-    <div class="flex-1 sm:w-full">
+    <div class="flex-2 mx-auto sm:w-full items-center text-center">
       <p class="text-lg"> {{with $session.name}}<b> {{ . | emojify | $page.RenderString | safeHTML }}</b>{{end}} @ <i>{{
           $session.location
           | emojify | $page.RenderString | safeHTML }}</i></p>
-
-      <p class="text-md">
+      {{with $session.talks}}
+      <details class="prose dark:prose-invert">
+        <summary class="text-center">
+          {{ $session.topic | emojify | $page.RenderString | safeHTML }}
+          {{with $session.link}}
+          <a href="{{.}}" target="_blank"><i class="fa fa-external-link"></i></a>
+          {{end}}
+        </summary>
+        {{with $session.host}}
+          <p><b>Session Host</b>: {{ $session.host | emojify | $page.RenderString | safeHTML }}</p>
+        {{end}}
+        {{with $session.link}}
+        <a href="{{.}}/#comentario" target="_blank">[Comment Here]</a>
+        {{end}}
+        <ul class="text-left">
+          {{range $session.talks}}
+          <li>
+            <b>{{.title | emojify |
+            $page.RenderString | safeHTML }}</b> {{with .speaker}}<i> {{ . | emojify | $page.RenderString | safeHTML }}</i>{{end}}
+            {{with .id}}
+            <a href="{{$session.link}}/{{.}}" target="_blank"><i class="fa fa-external-link"></i></a>
+            {{end}}
+          </li>
+          {{end}}
+        </ol>
+      </details>
+      {{else}}
+      <p class="prose dark:prose-invert">
         {{ $session.topic | emojify | $page.RenderString | safeHTML }}
         {{with $session.link}}
         <a href="{{.}}" target="_blank"><i class="fa fa-external-link"></i></a>
         {{end}}
       </p>
+      {{end}}
     </div>
     {{end}}
   </div>
