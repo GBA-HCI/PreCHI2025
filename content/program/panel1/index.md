@@ -1,5 +1,5 @@
 ---
-title: 'Panel 1 - From Lab to LinkedIn: Which Career Paths Await HCI Graduates'
+title: 'Panel 1 - From LinkedIn to Workplace: Career Opportunities for HCI Graduates'
 
 
 weight: 45
@@ -9,9 +9,9 @@ type: event
 # event: "Pre-CHI Forum 2025"
 event_url: https://gbahci.com/prechi2025
 
-location: Yeung LT-17
+location: Yeung LT-15
 
-summary: "From Lab to LinkedIn: Which Career Paths Await HCI Graduates"
+summary: "From LinkedIn to Workplace: Career Opportunities for HCI Graduates"
 abstract:
 
 # Talk start and end times.
@@ -33,7 +33,7 @@ featured: false
 
 <hr />
 
-## From Lab to LinkedIn: Which Career Paths Await HCI Graduates
+## From LinkedIn to Workplace: Career Opportunities for HCI Graduates
 
 **Panel Host**: Prof. Xiaoyu Zhang
 

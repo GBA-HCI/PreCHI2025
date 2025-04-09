@@ -130,6 +130,7 @@ sections:
           sessions: 
             - name: 'Prof. Xiaohua Sun'
               location: Yeung LT-17
+              topic: 'HCI for the Symbiosis with Agentic Machines'
               link: "program/opening"
         - time: 10:00 - 12:00
           hr: 1
@@ -211,7 +212,7 @@ sections:
                 speaker: Fan Zhang
             - name: 'Panel 1'
               topic: |
-                    From Lab to LinkedIn: Which Career Paths Await HCI Graduates
+                    From LinkedIn to Workplace: Career Opportunities for HCI Graduates
               location: Yeung LT-15
               link: "program/panel1"
               host: 'Yi Xu'

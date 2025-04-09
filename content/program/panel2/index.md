@@ -8,7 +8,7 @@ type: event
 # event: "Pre-CHI Forum 2025"
 event_url: https://gbahci.com/prechi2025
 
-location: Yeung LT-17
+location: Yeung LT-15
 
 summary: "Interactive Systems and Data Visualization"
 abstract:

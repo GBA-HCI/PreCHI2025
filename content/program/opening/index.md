@@ -1,5 +1,5 @@
 ---
-title: Opening Keynote
+title: Opening Keynote - HCI for the Symbiosis with Agentic Machines
 
 weight: 20
 
@@ -30,5 +30,6 @@ featured: true
 
 ---
 
+## HCI for the Symbiosis with Agentic Machines
 
 **Speaker**: Prof. Xiaohua Sun, *Southern University of Science and Technology*
