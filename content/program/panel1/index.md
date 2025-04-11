@@ -39,7 +39,7 @@ featured: false
 
 **Panelist**:
 - Yun Wang (MSRA)
-- Wynn Lyu (Productivity HK)
+- Wynn Lyu (Hong Kong Productivity Council)
 - Prof. Zhenhui Peng (Sat-Yat Sen University)
 - Prof. Yingying She (Xiamen University)
 

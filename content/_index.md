@@ -45,7 +45,7 @@ sections:
              style="grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))">
           <div class="flex flex-col items-center p-2 min-w-[150px]">
             <div class="w-full aspect-square flex items-center justify-center">
-              <img src="media/logos/CityUHK.webp" alt="CityU" class="max-h-full w-auto object-contain">
+              <img src="media/logos/cityu.svg" alt="CityU" class="max-h-full w-auto object-contain">
             </div>
           </div>
           <div class="flex flex-col items-center p-2 min-w-[150px]">
@@ -169,10 +169,6 @@ sections:
                 title: '[CHI25] Exploring the Design of LLM-based Agent in Enhancing Self-disclosure
                   Among the Older Adults'
                 speaker: Yijie Guo
-              - id: '#exploring-the-evolvement-of-user-engagement-in-online-creative-community-under-the-surge-of-generative-ai-a-case-study-of-deviantart'
-                title: '[CSCW] Exploring the Evolvement of User Engagement in Online Creative
-                  Community under the Surge of Generative AI: A Case Study of DeviantArt'
-                speaker: Kangyu Yuan
             - name: Session B1
               location: Yeung LT-18
               topic: Healthcare and Human Wellbeing
@@ -202,10 +198,6 @@ sections:
                 title: '[CHI25] Customizing Emotional Support: How Do Individuals Construct and
                   Interact With LLM-Powered Chatbots'
                 speaker: Xi Zheng
-              - id: '#signaling-human-intentions-to-service-robots-understanding-the-use-of-social-cues-during-in-person-conversations'
-                title: '[CHI25] Signaling Human Intentions to Service Robots: Understanding the
-                  Use of Social Cues during In-Person Conversations'
-                speaker: Hanfang Lyu
               - id: '#becoming-my-own-audience-how-dancers-react-to-avatars-unlike-themselves-in-motion-capture-supported-live-improvisational-performance'
                 title: '[CHI25] "Becoming My Own Audience": How Dancers React to Avatars Unlike
                   Themselves in Motion Capture-Supported Live Improvisational Performance'
@@ -222,7 +214,7 @@ sections:
                 - title: 'Panelists:'
                   speaker: |
                     - Yun Wang (MSRA)
-                    - Wynn Lyu (Productivity HK)
+                    - Wynn Lyu (Hong Kong Productivity Council)
                     - Prof. Zhenhui Peng (Sat-Yat Sen University)
                     - Prof. Yingying She (Xiamen University)
                     
@@ -284,9 +276,13 @@ sections:
                 title: '[CHI25] SeQR: A User-Friendly and Secure-by-Design Configurator for Enterprise
                   Wi-Fi'
                 speaker: Sze Yiu Chau
-              - id: '#using-affordance-to-understand-usability-of-web3-social-media'
-                title: '[CHI25] Using Affordance to Understand Usability of Web3 Social Media'
-                speaker: Maggie Yongqi Guan
+              - id: '#signaling-human-intentions-to-service-robots-understanding-the-use-of-social-cues-during-in-person-conversations'
+                title: '[CHI25] Signaling Human Intentions to Service Robots: Understanding the
+                  Use of Social Cues during In-Person Conversations'
+                speaker: Hanfang Lyu
+              - id: '#exploring-the-evolvement-of-user-engagement-in-online-creative-community-under-the-surge-of-generative-ai-a-case-study-of-deviantart'
+                title: '[CSCW] Exploring the Evolvement of User Engagement in Online Creative Community under the Surge of Generative AI: A Case Study of DeviantArt'
+                speaker: Kangyu Yuan
             - name: 'Panel 2'
               topic: |
                     Opportunities and Challenges in Human-Computer Interaction Research in the Greater Bay Area
@@ -397,7 +393,7 @@ sections:
         | Getting to CityU | Campus Maps |
         | --- | --- |
         | Guides on the official website: [[link]](https://www.cityu.edu.hk/about/campus/getting-to-cityu) | Download PDF: [[pdf]](https://www.cityu.edu.hk/cdo/download/CampusDirectory.pdf) |
-        | Video guides: [[link]](https://gbahci.com/prechi/cityu/) | Search for buildings: [[link]](https://www.cityu.edu.hk/about/campus/map) |
+        |  Forum guides: [[link]](https://mjrh8ymq6a.feishu.cn/docx/X5qHdmqIMoOgxrxflHTcL4UBngg) | Search for buildings: [[link]](https://www.cityu.edu.hk/about/campus/map) |
     design:
       text:
         # Card background color (CSS class)

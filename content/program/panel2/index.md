@@ -1,5 +1,5 @@
 ---
-title: 'Panel 2 - Interactive Systems and Data Visualization'
+title: 'Panel 2 - Opportunities and Challenges in Human-Computer Interaction Research in the Greater Bay Area'
 
 weight: 65
 
@@ -10,7 +10,7 @@ event_url: https://gbahci.com/prechi2025
 
 location: Yeung LT-15
 
-summary: "Interactive Systems and Data Visualization"
+summary: "Opportunities and Challenges in Human-Computer Interaction Research in the Greater Bay Area"
 abstract:
 
 # Talk start and end times.
@@ -39,7 +39,7 @@ featured: false
 **Panelist**:
 
 - Prof. Shengdong Zhao (CityUHK)
-- Prof. Huaming Qu (HKUST)
+- Prof. Huamin Qu (HKUST)
 - Prof. Boyu Gao (Jinan University)
 - Prof. Pengcheng An (SUSTech) 
 - Prof. Guihuan Feng (Nanjing University)

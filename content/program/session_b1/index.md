@@ -77,13 +77,6 @@ featured: false
 ​**​Abstract​**​: Personalized support is essential to fulfill individuals' emotional needs and sustain their mental well-being. Large language models (LLMs), with great customization flexibility, hold promises to enable individuals to create their own emotional support agents. In this work, we developed ChatLab, where users could construct LLM-powered chatbots with additional interaction features including voices and avatars. Using a Research through Design approach, we conducted a week-long field study followed by interviews and design activities (N = 22), which uncovered how participants created diverse chatbot personas for emotional reliance, confronting stressors, connecting to intellectual discourse, reflecting mirrored selves, etc. We found that participants actively enriched the personas they constructed, shaping the dynamics between themselves and the chatbot to foster open and honest conversations. They also suggested other customizable features, such as integrating online activities and adjustable memory settings. Based on these findings, we discuss opportunities for enhancing personalized emotional support through emerging AI technologies.
 
 
-### Signaling Human Intentions to Service Robots: Understanding the Use of Social Cues during In-Person Conversations
-
-​**​Speaker​**​: Hanfang Lyu, *The Hong Kong University of Science and Technology*
-
-​**​Abstract​**​: As service robots become commonplace, it is essential for them to effectively interpret human signals, such as verbal, gesture, and eye gaze, in social contexts, where people need to focus on their primary tasks to minimize interruptions and distractions. Towards such a socially acceptable Human-Robot Interaction, we conducted a study (N=24) in an AR-simulated context of a coffee chat. Participants elicited social cues for signaling intentions to an anthropomorphic, zoomorphic, grounded technical, or aerial technical robot waiter when they were speakers or listeners. Our findings reveal the common patterns of social cues over intentions, the effects of robot morphology on social cue position and conversational role on social cue complexity, and users' rationale in choosing social cues. We offer insights into understanding social cues concerning perceptions of robots, cognitive load, and social context. Additionally, we discuss design considerations on approaching, social cue recognition, and response strategies for future service robots.
-
-
 ### "Becoming My Own Audience": How Dancers React to Avatars Unlike Themselves in Motion Capture-Supported Live Improvisational Performance
 
 ​**​Speaker​**​: Fan Zhang, *City University of Hong Kong*
