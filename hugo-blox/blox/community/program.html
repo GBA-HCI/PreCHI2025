@@ -25,16 +25,20 @@
   {{range $timeslot := $block.content.timeslots}}
   <div
     class="w-full flex flex-wrap justify-center items-center text-center mx-auto gap-x-12 text-black dark:text-gray-100 text-lg md:text-xl prose dark:prose-invert">
-    {{with $timeslot.hr}}
+    {{if $timeslot.hr}}
     <hr class="w-full my-4" />
+    {{else}}
+    <br class="w-full my-2" />
     {{end}}
-    {{ with $timeslot.title }}
     <div class="w-full p-2 justify-center max-w-screen-xl mx-auto">
+      {{ with $timeslot.title }}
       <h3 class="text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">{{. | emojify |
         $page.RenderString | safeHTML}}</h3>
-      <b>{{ $timeslot.time | emojify | $page.RenderString | safeHTML }}</b>
+      {{ end }}
+      {{ with $timeslot.time }}
+      <b>{{ . | emojify | $page.RenderString | safeHTML }}</b>
+      {{ end }}
     </div>
-    {{ end }}
     {{range $session := $timeslot.sessions}}
     <div class="flex-2 mx-auto sm:w-full items-center text-center">
       <p class="text-lg"> {{with $session.name}}<b> {{ . | emojify | $page.RenderString | safeHTML }}</b>{{end}} @ <i>{{
@@ -49,7 +53,7 @@
           {{end}}
         </summary>
         {{with $session.host}}
-          <p><b>Session Host</b>: {{ $session.host | emojify | $page.RenderString | safeHTML }}</p>
+        <p><b>Session Host</b>: {{ $session.host | emojify | $page.RenderString | safeHTML }}</p>
         {{end}}
         {{with $session.link}}
         <a href="{{.}}/#comentario" target="_blank">[Comment Here]</a>
@@ -58,13 +62,14 @@
           {{range $session.talks}}
           <li>
             <b>{{.title | emojify |
-            $page.RenderString | safeHTML }}</b> {{with .speaker}}<i> {{ . | emojify | $page.RenderString | safeHTML }}</i>{{end}}
+              $page.RenderString | safeHTML }}</b> {{with .speaker}}<i> {{ . | emojify | $page.RenderString | safeHTML
+              }}</i>{{end}}
             {{with .id}}
             <a href="{{$session.link}}/{{.}}" target="_blank"><i class="fa fa-external-link"></i></a>
             {{end}}
           </li>
           {{end}}
-        </ol>
+          </ol>
       </details>
       {{else}}
       <p class="prose dark:prose-invert">

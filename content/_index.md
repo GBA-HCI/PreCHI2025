@@ -202,6 +202,10 @@ sections:
                 title: '[CHI25] "Becoming My Own Audience": How Dancers React to Avatars Unlike
                   Themselves in Motion Capture-Supported Live Improvisational Performance'
                 speaker: Fan Zhang
+        - time: 10:30 - 12:00
+          # hr: 1
+          # title: Panel 1
+          sessions:
             - name: 'Panel 1'
               topic: |
                     From LinkedIn to Workplace: Career Opportunities for HCI Graduates
