@@ -1,0 +1,179 @@
+- name: Session A1
+  location: Yeung LT-17
+  topic: GenAI-Enhanced Communication
+  host: Zeyu Huang
+  link: program/session_a1
+  talks:
+  - id: '#rambler-in-the-wild-a-diary-study-of-llm-assisted-writing-with-speech'
+    title: '[CHI25] Rambler in the Wild: A Diary Study of LLM-Assisted Writing With
+      Speech'
+    speaker: Xuyu Yang
+  - id: '#scaffolded-turns-and-logical-conversations-designing-humanized-llm-powered-conversational-agents-for-hospital-admission-interviews'
+    title: '[CHI25] Scaffolded Turns and Logical Conversations: Designing Humanized
+      LLM-Powered Conversational Agents for Hospital Admission Interviews'
+    speaker: Dingdong Liu
+  - id: '#ronaldos-a-poser-how-the-use-of-generative-ai-shapes-debates-in-online-forums'
+    title: '[CHI25] "Ronaldo''s a poser!": How the Use of Generative AI Shapes Debates
+      in Online Forums'
+    speaker: Yuhan Zeng
+  - id: '#journalaide-empowering-older-adults-in-digital-journal-writing'
+    title: '[CHI25] JournalAIde: Empowering Older Adults in Digital Journal Writing'
+    speaker: Shixu Zhou
+  - id: '#harmonycut-supporting-creative-chinese-paper-cutting-design-with-form-and-connotation-harmony'
+    title: '[CHI25] HarmonyCut: Supporting Creative Chinese Paper-cutting Design with
+      Form and Connotation Harmony'
+    speaker: Huanchen Wang
+  - id: '#acknowledge-a-computational-framework-for-human-compatible-affordance-based-interaction-planning-in-real-world-contexts'
+    title: '[CHI25] ACKnowledge: A Computational Framework for Human Compatible Affordance-based
+      Interaction Planning in Real-world Contexts'
+    speaker: Ziqi Pan
+  - id: '#exploring-the-design-of-llm-based-agent-in-enhancing-self-disclosure-among-the-older-adults'
+    title: '[CHI25] Exploring the Design of LLM-based Agent in Enhancing Self-disclosure
+      Among the Older Adults'
+    speaker: Yijie Guo
+  - id: '#exploring-the-evolvement-of-user-engagement-in-online-creative-community-under-the-surge-of-generative-ai-a-case-study-of-deviantart'
+    title: '[CSCW] Exploring the Evolvement of User Engagement in Online Creative
+      Community under the Surge of Generative AI: A Case Study of DeviantArt'
+    speaker: Kangyu Yuan
+- name: Session A2
+  location: Yeung LT-17
+  topic: Interactive Systems and Data Visualization
+  host: Xi Zheng
+  link: program/session_a2
+  talks:
+  - id: '#making-invisible-dynamics-visible-case-studies-in-visualizing-computational-and-behavioral-processes-guest-talk'
+    title: '[Guest Talk] Making Invisible Dynamics Visible: Case Studies in Visualizing
+      Computational and Behavioral Processes'
+    speaker: Yuxin Ma
+  - id: '#vizta-enhancing-comprehension-of-distributional-visualization-with-visual-lexical-fused-conversational-interface'
+    title: '[EuroVis] VIzTA: Enhancing Comprehension of Distributional Visualization
+      with Visual-Lexical Fused Conversational Interface'
+    speaker: Liangwei Wang
+  - id: '#insightbridge-enhancing-empathizing-with-users-through-real-time-information-synthesis-and-visual-communication'
+    title: '[CHI25] InsightBridge: Enhancing Empathizing with Users through Real-Time
+      Information Synthesis and Visual Communication'
+    speaker: Yue Zhang
+  - id: '#interlink-linking-text-with-code-and-outputs-in-computational-notebooks'
+    title: '[CHI25] InterLink: Linking Text with Code and Outputs in Computational
+      Notebooks'
+    speaker: Yanna Lin
+  - id: '#creative-blends-of-visual-concepts'
+    title: '[CHI25] Creative Blends of Visual Concepts'
+    speaker: Zhida Sun
+  - id: '#gencolor-generative-color-concept-association-in-visual-design'
+    title: '[CHI25] GenColor: Generative Color-Concept Association in Visual Design'
+    speaker: Yihan Hou
+- name: Session A3
+  location: Yeung LT-17
+  topic: Technology-Enhanced Learning and Heritage
+  host: Yu'an Chen
+  link: program/session_a3
+  talks:
+  - id: '#culture-inheritance-and-design-innovation-research-practice-at-milab-guest-talk'
+    title: '[Guest Talk] Culture Inheritance and Design Innovation: Research Practice
+      at MILAB'
+    speaker: Haipeng Mi
+  - id: '#coknowledge-supporting-assimilation-of-time-synced-collective-knowledge-in-online-science-videos'
+    title: '[CHI25] CoKnowledge: Supporting Assimilation of Time-synced Collective
+      Knowledge in Online Science Videos'
+    speaker: Yuanhao Zhang
+  - id: '#designing-llm-powered-multimodal-instructions-to-support-rich-hands-on-skills-remote-learning-a-case-study-with-massage-instructors-and-learners'
+    title: '[CHI25] Designing LLM-Powered Multimodal Instructions to Support Rich
+      Hands-on Skills Remote Learning: A Case Study with Massage Instructors and Learners'
+    speaker: Chutian Jiang
+  - id: '#breaking-barriers-or-building-dependency-exploring-team-llm-collaboration-in-ai-infused-classroom-debate'
+    title: '[CHI25] Breaking Barriers or Building Dependency? Exploring Team-LLM Collaboration
+      in AI-infused Classroom Debate'
+    speaker: Zihan Zhang
+  - id: '#litlinker-supporting-the-ideation-of-interdisciplinary-contexts-with-large-language-models-for-teaching-literature-in-elementary-schools'
+    title: '[CHI25] LitLinker: Supporting the Ideation of Interdisciplinary Contexts
+      with Large Language Models for Teaching Literature in Elementary Schools'
+    speaker: Haoxiang Fan
+- name: Session B1
+  location: Yeung LT-18
+  topic: Healthcare and Human Wellbeing
+  host: Liangwei Wang
+  link: program/session_b1
+  talks:
+  - id: '#empathy-driven-interaction-design-guest-talk'
+    title: '[Guest Talk] Empathy-Driven Interaction Design'
+    speaker: Wei Liu
+  - id: '#a-constructed-response-designing-and-choreographing-robot-arm-movements-in-collaborative-dance-improvisation'
+    title: '[CSCW] A Constructed Response: Designing and Choreographing Robot Arm
+      Movements in Collaborative Dance Improvisation'
+    speaker: Ray Lc
+  - id: '#human-precision-medicine-interaction-public-perceptions-of-polygenic-risk-score-for-genetic-health-prediction'
+    title: '[CHI25] Human-Precision Medicine Interaction: Public Perceptions of Polygenic
+      Risk Score for Genetic Health Prediction'
+    speaker: Yuhao Sun
+  - id: '#designing-and-evaluating-a-narrative-driven-spatial-visualization-for-improving-patient-centered-communication-among-older-adults'
+    title: '[CHI25] Designing and Evaluating a Narrative-driven Spatial Visualization
+      for Improving Patient-centered Communication among Older Adults'
+    speaker: Jiaan Li
+  - id: '#walk-in-their-shoes-to-navigate-your-own-path-learning-about-procrastination-through-a-serious-game'
+    title: '[CHI 25] Walk in Their Shoes to Navigate Your Own Path: Learning About
+      Procrastination Through A Serious Game'
+    speaker: Runhua Zhang
+  - id: '#customizing-emotional-support-how-do-individuals-construct-and-interact-with-llm-powered-chatbots'
+    title: '[CHI25] Customizing Emotional Support: How Do Individuals Construct and
+      Interact With LLM-Powered Chatbots'
+    speaker: Xi Zheng
+  - id: '#signaling-human-intentions-to-service-robots-understanding-the-use-of-social-cues-during-in-person-conversations'
+    title: '[CHI25] Signaling Human Intentions to Service Robots: Understanding the
+      Use of Social Cues during In-Person Conversations'
+    speaker: Hanfang Lyu
+  - id: '#becoming-my-own-audience-how-dancers-react-to-avatars-unlike-themselves-in-motion-capture-supported-live-improvisational-performance'
+    title: '[CHI25] "Becoming My Own Audience": How Dancers React to Avatars Unlike
+      Themselves in Motion Capture-Supported Live Improvisational Performance'
+    speaker: Fan Zhang
+- name: Session B2
+  location: Yeung LT-18
+  topic: New Media and Research Inspirations
+  host: Hanfang Lyu
+  link: program/session_b2
+  talks:
+  - id: '#design-futures-in-hci-design-thinking-for-digital-transformation-guest-talk'
+    title: '[Guest Talk] Design Futures in HCI: Design Thinking for Digital Transformation '
+    speaker: Zhiyong Fu
+  - id: '#designing-highly-accessible-xr-interfaces-rep'
+    title: '[REP] Designing Highly Accessible XR Interfaces'
+    speaker: Yang Tian
+  - id: '#participatory-design-in-human-computer-interaction-cases-characteristics-and-lessons'
+    title: '[CHI25] Participatory Design in Human-Computer Interaction: Cases, Characteristics,
+      and Lessons'
+    speaker: Xiang (nathan) Qi
+  - id: '#seqr-a-user-friendly-and-secure-by-design-configurator-for-enterprise-wi-fi'
+    title: '[CHI25] SeQR: A User-Friendly and Secure-by-Design Configurator for Enterprise
+      Wi-Fi'
+    speaker: Sze Yiu Chau
+  - id: '#using-affordance-to-understand-usability-of-web3-social-media'
+    title: '[CHI25] Using Affordance to Understand Usability of Web3 Social Media'
+    speaker: Maggie Yongqi Guan
+- name: Session B3
+  location: Yeung LT-18
+  topic: Interaction in VR/AR
+  host: Yuan Xu
+  link: program/session_b3
+  talks:
+  - id: '#gazepuffer-hands-free-input-method-leveraging-puff-cheeks-for-vr-guest-talk'
+    title: '[Guest Talk] GazePuffer : Hands-Free Input Method Leveraging Puff Cheeks
+      for VR'
+    speaker: Minghui Sun
+  - id: '#aiget-transforming-everyday-moments-into-hidden-knowledge-discovery-with-ai-assistance-on-smart-glasses'
+    title: '[CHI25] AiGet: Transforming Everyday Moments into Hidden Knowledge Discovery
+      with AI Assistance on Smart Glasses'
+    speaker: Runze Cai
+  - id: '#augmenting-realistic-charts-with-virtual-overlays'
+    title: '[CHI25] Augmenting Realistic Charts with Virtual Overlays'
+    speaker: Yao Shi
+  - id: '#modeling-locomotion-with-body-angular-movements-in-virtual-reality'
+    title: '[CHI25] Modeling Locomotion with Body Angular Movements in Virtual Reality'
+    speaker: Zijun Mai
+  - id: '#vrcaptions-design-captions-for-dhh-users-in-multiplayer-communication-in-vr'
+    title: '[CHI25] VRCaptions: Design Captions for DHH Users in Multiplayer Communication
+      in VR'
+    speaker: Tianze Xie
+  - id: '#reachpad-interacting-with-multiple-virtual-screens-using-a-single-physical-pad-through-haptic-retargeting'
+    title: '[CHI25] ReachPad: Interacting with Multiple Virtual Screens using a Single
+      Physical Pad through Haptic Retargeting'
+    speaker: Han Shi

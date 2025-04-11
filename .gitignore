@@ -43,3 +43,5 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+prechi25_data_processing/data
