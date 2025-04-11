@@ -9,7 +9,7 @@ type: event
 # event: "Pre-CHI Forum 2025"
 event_url: https://gbahci.com/prechi2025
 
-location: Yeung LT-15
+location: Yeung LT-15 <u>[(Zoom Link)](https://cityu.zoom.us/j/87806999124?pwd=QSszak2xTj5I5SkFGdnA77F5cQbGkb.1)</u>
 
 summary: "From LinkedIn to Workplace: Career Opportunities for HCI Graduates"
 abstract:
@@ -42,6 +42,7 @@ featured: false
 - Wynn Lyu (Hong Kong Productivity Council)
 - Prof. Zhenhui Peng (Sat-Yat Sen University)
 - Prof. Yingying She (Xiamen University)
+- Prof. Wei Liu (SUSTech)
 
 
 **Session Host**: Yi Xu

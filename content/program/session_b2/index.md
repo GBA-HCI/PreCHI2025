@@ -8,7 +8,7 @@ type: event
 # event: "Pre-CHI Forum 2025"
 event_url: https://gbahci.com/prechi2025
 
-location: Yeung LT-18
+location: Yeung LT-18 <u>[(Zoom Link)](https://cityu.zoom.us/j/83405519792?pwd=p7KqBgxM6DmDCKd0B63aYezk9WqDbT.1)</u>
 
 summary: "New Media and Research Inspirations"
 abstract:
@@ -42,14 +42,6 @@ featured: false
 
 ​**​Abstract​**​: TBD
 
-
-### Designing Highly Accessible XR Interfaces [REP]
-
-​**​Speaker​**​: Yang Tian, *Guangxi University*
-
-​**​Abstract​**​: TBD
-
-
 ### Participatory Design in Human-Computer Interaction: Cases, Characteristics, and Lessons
 
 ​**​Speaker​**​: Xiang (nathan) Qi, *The Hong Kong Polytechnic University*
@@ -77,3 +69,9 @@ featured: false
 ​**​Speaker​**​: Kangyu Yuan, *The Hong Kong University of Science and Technology*
 
 ​**​Abstract​**​: The rise of AI-generated content (AIGC) is transforming online creative communities (OCCs) and posing challenges to their regulation. The interacting behaviors, such as sharing artworks with descriptions, commenting on creations, and creators' subsequent replying are the essential components of user engagement in these communities. Understanding the influence of AIGC on the evolving user engagement could be helpful for community regulation. In this work, we collect 235K posts and their associated 255K comments from DeviantArt, a large creative community allowing uploading AIGC. Through open coding, we identify five categories of practices in describing and commenting on artworks, respectively. A set of deep learning models are applied to classify the posts and comments. We then combine time series regression analysis, causal inference analysis, and logistic regression analysis, to examine the impact of the surge of AIGC on user engagement. Results suggest that AI-generated artworks show a decreasing emphasis on the content of creations but an increasing trend toward commercial and promotion purposes. AI-generated artworks emphasize less on IP issues than human-created ones, while the awareness of IP issues drops for human-created artworks with the growth of AIGC as well. Although comments with high sentiment valence, for peer bonding or for requesting usage positively predict the reply behavior for human-created artworks, community members are less likely to maintain these interactions as AIGC rises. Finally, we discuss insights and design implications for OCCs.
+
+### Designing Highly Accessible XR Interfaces [REP]
+
+​**​Speaker​**​: Yang Tian, *Guangxi University*
+
+​**​Abstract​**​: TBD

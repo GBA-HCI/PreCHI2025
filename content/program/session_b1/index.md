@@ -7,7 +7,7 @@ type: event
 # event: "Pre-CHI Forum 2025"
 event_url: https://gbahci.com/prechi2025
 
-location: Yeung LT-18
+location: Yeung LT-18 <u>[(Zoom Link)](https://cityu.zoom.us/j/83405519792?pwd=p7KqBgxM6DmDCKd0B63aYezk9WqDbT.1)</u>
 
 summary: "Healthcare and Human Wellbeing"
 abstract:

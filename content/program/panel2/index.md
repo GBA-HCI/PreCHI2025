@@ -8,7 +8,7 @@ type: event
 # event: "Pre-CHI Forum 2025"
 event_url: https://gbahci.com/prechi2025
 
-location: Yeung LT-15
+location: Yeung LT-15 <u>[(Zoom Link)](https://cityu.zoom.us/j/87806999124?pwd=QSszak2xTj5I5SkFGdnA77F5cQbGkb.1)</u>
 
 summary: "Opportunities and Challenges in Human-Computer Interaction Research in the Greater Bay Area"
 abstract:

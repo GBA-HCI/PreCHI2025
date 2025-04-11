@@ -117,27 +117,27 @@ sections:
     id: program
     content:
       title: "Program"
-      text: 
+      text: ''
       timeslots:
         - time: "09:00 - 09:20"
           title: Welcome Reception
           sessions: 
             - topic: 'leave your comments'
-              location: "Yeung LT-17"
-              link: "program/welcome"
+              location: "[Yeung LT-17](https://cityu.zoom.us/j/86042888488?pwd=VaJZhAsi3YwtOVaHGFqkimYe0yYLIs.1)"
+              link: "program/welcome/#comentario"
         - time: 09:20 - 09:50
           title: Opening Keynote
           sessions: 
             - name: 'Prof. Xiaohua Sun'
-              location: Yeung LT-17
+              location: '[Yeung LT-17](https://cityu.zoom.us/j/86042888488?pwd=VaJZhAsi3YwtOVaHGFqkimYe0yYLIs.1)'
               topic: 'HCI for the Symbiosis with Agentic Machines'
-              link: "program/opening"
-        - time: 10:00 - 12:00
+              link: "program/welcome/#opening-keynote---hci-for-the-symbiosis-with-agentic-machines"
+        - time: 10:10 - 12:00
           hr: 1
           title: Session 1
           sessions:             
             - name: Session A1
-              location: Yeung LT-17
+              location: "[Yeung LT-17](https://cityu.zoom.us/j/86042888488?pwd=VaJZhAsi3YwtOVaHGFqkimYe0yYLIs.1)"
               topic: GenAI-Enhanced Communication
               host: Zeyu Huang
               link: program/session_a1
@@ -170,7 +170,7 @@ sections:
                   Among the Older Adults'
                 speaker: Yijie Guo
             - name: Session B1
-              location: Yeung LT-18
+              location: "[Yeung LT-18](https://cityu.zoom.us/j/83405519792?pwd=p7KqBgxM6DmDCKd0B63aYezk9WqDbT.1)"
               topic: Healthcare and Human Wellbeing
               host: Liangwei Wang
               link: program/session_b1
@@ -205,7 +205,7 @@ sections:
             - name: 'Panel 1'
               topic: |
                     From LinkedIn to Workplace: Career Opportunities for HCI Graduates
-              location: Yeung LT-15
+              location: "[Yeung LT-15](https://cityu.zoom.us/j/87806999124?pwd=QSszak2xTj5I5SkFGdnA77F5cQbGkb.1)"
               link: "program/panel1"
               host: 'Yi Xu'
               talks:
@@ -229,7 +229,7 @@ sections:
           title: Session 2
           sessions: 
             - name: Session A2
-              location: Yeung LT-17
+              location: "[Yeung LT-17](https://cityu.zoom.us/j/86042888488?pwd=VaJZhAsi3YwtOVaHGFqkimYe0yYLIs.1)"
               topic: Interactive Systems and Data Visualization
               host: Xi Zheng
               link: program/session_a2
@@ -257,7 +257,7 @@ sections:
                 title: '[CHI25] GenColor: Generative Color-Concept Association in Visual Design'
                 speaker: Yihan Hou
             - name: Session B2
-              location: Yeung LT-18
+              location: "[Yeung LT-18](https://cityu.zoom.us/j/83405519792?pwd=p7KqBgxM6DmDCKd0B63aYezk9WqDbT.1)"
               topic: New Media and Research Inspirations
               host: Hanfang Lyu
               link: program/session_b2
@@ -265,9 +265,6 @@ sections:
               - id: '#design-futures-in-hci-design-thinking-for-digital-transformation-guest-talk'
                 title: '[Guest Talk] Design Futures in HCI: Design Thinking for Digital Transformation '
                 speaker: Zhiyong Fu
-              - id: '#designing-highly-accessible-xr-interfaces-rep'
-                title: '[REP] Designing Highly Accessible XR Interfaces'
-                speaker: Yang Tian
               - id: '#participatory-design-in-human-computer-interaction-cases-characteristics-and-lessons'
                 title: '[CHI25] Participatory Design in Human-Computer Interaction: Cases, Characteristics,
                   and Lessons'
@@ -283,10 +280,13 @@ sections:
               - id: '#exploring-the-evolvement-of-user-engagement-in-online-creative-community-under-the-surge-of-generative-ai-a-case-study-of-deviantart'
                 title: '[CSCW] Exploring the Evolvement of User Engagement in Online Creative Community under the Surge of Generative AI: A Case Study of DeviantArt'
                 speaker: Kangyu Yuan
+              - id: '#designing-highly-accessible-xr-interfaces-rep'
+                title: '[REP] Designing Highly Accessible XR Interfaces'
+                speaker: Yang Tian
             - name: 'Panel 2'
               topic: |
                     Opportunities and Challenges in Human-Computer Interaction Research in the Greater Bay Area
-              location: Yeung LT-15
+              location: "[Yeung LT-15](https://cityu.zoom.us/j/87806999124?pwd=QSszak2xTj5I5SkFGdnA77F5cQbGkb.1)"
               link: "program/panel2"
               host: 'Zhuangtong Huang'
               talks:
@@ -310,7 +310,7 @@ sections:
           title: Session 3
           sessions: 
             - name: Session A3
-              location: Yeung LT-17
+              location: "[Yeung LT-17](https://cityu.zoom.us/j/86042888488?pwd=VaJZhAsi3YwtOVaHGFqkimYe0yYLIs.1)"
               topic: Technology-Enhanced Learning and Heritage
               host: Yu'an Chen
               link: program/session_a3
@@ -336,7 +336,7 @@ sections:
                   with Large Language Models for Teaching Literature in Elementary Schools'
                 speaker: Haoxiang Fan
             - name: Session B3
-              location: Yeung LT-18
+              location: "[Yeung LT-18](https://cityu.zoom.us/j/83405519792?pwd=p7KqBgxM6DmDCKd0B63aYezk9WqDbT.1)"
               topic: Interaction in VR/AR
               host: Yuan Xu
               link: program/session_b3
@@ -369,14 +369,14 @@ sections:
           sessions: 
             - name: Prof. Haining Liang
               topic: 'XR Gaming: Exploring Future Gameplay Experiences'
-              location: "Yeung LT-17"
-              link: "program/closing"
+              location: "[Yeung LT-17](https://cityu.zoom.us/j/86042888488?pwd=VaJZhAsi3YwtOVaHGFqkimYe0yYLIs.1)"
+              link: "program/welcome//#closing-keynote---xr-gaming-exploring-future-gameplay-experiences"
         - time: 18:30 - 18:50
           title: "Award Ceremony"
           sessions:
             - topic: 'leave your comments' 
-              location: "Yeung LT-17" 
-              link: "program/welcome"
+              location: "[Yeung LT-17](https://cityu.zoom.us/j/86042888488?pwd=VaJZhAsi3YwtOVaHGFqkimYe0yYLIs.1)" 
+              link: "program/welcome/#comentario"
         # - time: 18:45 - 20:30
         #   title: "Conference Dinner"
         #   sessions: 
@@ -405,21 +405,15 @@ sections:
       title: 
       slider: |
 
+        <embed src="uploads/PreCHI Program.pdf" width="100%" height="680" type="application/pdf">
+        <hr>
         {{< carousel items="1" height="680" unit="px" duration="7000" >}}
       text: |
 
-        The 
-        <a href="#gallery" onclick="document.querySelector('.carousel').querySelector('ol li:first-child a').click();">
-          advertising poster
-        </a> 
+        The program <a href="uploads/PreCHI Program.pdf" target="_blank">pdf</a>, advertising poster
         <a href="#gallery" onclick="document.querySelector('.carousel').querySelector('ol li:first-child a').click(); document.querySelector('.carousel').querySelector('ul li:first-child img').requestFullscreen();">
           <i class="fa fa-expand" aria-hidden="true"></i>
-        </a> for Pre-CHI 2025 and 
-        <a href="#gallery" onclick="document.querySelector('.carousel').querySelector('ol li:first-child').nextElementSibling.querySelector('a').click();document.querySelector('.carousel').querySelector('ul').classList.remove('interacted');">
-          photos
-        </a> taken at [Pre-CHI 2024](https://gbahci.com/prechi/).
-
-        Stay tuned, and more details will be announced later.
+        </a> for Pre-CHI 2025 and photos taken at [Pre-CHI 2024](https://gbahci.com/prechi/).
       
     design:
       css_class: "bg-gray-100 dark:bg-transparent"

@@ -1,5 +1,5 @@
 ---
-title: Leave Your Mark on Pre-CHI 2025
+title: Keynotes
 
 weight: 1000
 
@@ -8,7 +8,7 @@ type: event
 # event: "Pre-CHI Forum 2025"
 event_url: https://gbahci.com/prechi2025
 
-location: City University of Hong Kong
+location: Yeung LT-17 <u>[(Zoom Link)](https://cityu.zoom.us/j/86042888488?pwd=VaJZhAsi3YwtOVaHGFqkimYe0yYLIs.1)</u>
 # address:
 #   street: 83 Tat Chee Ave, Kowloon Tong
 #   city: Hong Kong
@@ -31,7 +31,7 @@ publishDate: '2025-03-11'
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 # image:
 #   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
@@ -63,4 +63,15 @@ featured: false
 #   - example
 ---
 
+## Opening Keynote - HCI for the Symbiosis with Agentic Machines
 
+**Time**: 09:20 - 09:50
+
+**Speaker**: Prof. Xiaohua Sun, *Southern University of Science and Technology*
+
+
+## Closing Keynote - XR Gaming: Exploring Future Gameplay Experiences
+
+**Time**: 17:15 - 17:45
+
+**Speaker**: Prof. Haining Liang, *The Hong Kong University of Science and Technology (Guangzhou)*

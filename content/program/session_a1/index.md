@@ -8,14 +8,14 @@ type: event
 # event: "Pre-CHI Forum 2025"
 event_url: https://gbahci.com/prechi2025
 
-location: Yeung LT-17
+location: Yeung LT-17 <u>[(Zoom Link)](https://cityu.zoom.us/j/86042888488?pwd=VaJZhAsi3YwtOVaHGFqkimYe0yYLIs.1)</u>
 
 summary: "GenAI-Enhanced Communication"
 abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2025-04-12 10:00:00 +0800
+date: 2025-04-12 10:10:00 +0800
 date_end: 2025-04-12 12:00:00 +0800
 all_day: false
 
