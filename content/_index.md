@@ -308,7 +308,7 @@ sections:
           sessions: 
             - name: "Snacks & Poster Session"
               location: "The Hall Way between LT-17 and LT-18"
-        - time: 15:30 - 17:30
+        - time: 15:30 - 17:00
           hr: 1
           title: Session 3
           sessions: 
@@ -366,7 +366,7 @@ sections:
                 title: '[CHI25] ReachPad: Interacting with Multiple Virtual Screens using a Single
                   Physical Pad through Haptic Retargeting'
                 speaker: Han Shi
-        - time: 18:00 - 18:30
+        - time: 17:15 - 17:45
           hr: 1
           title: "Closing Keynote"
           sessions: 
@@ -374,7 +374,7 @@ sections:
               topic: 'XR Gaming: Exploring Future Gameplay Experiences'
               location: "[Yeung LT-17](https://cityu.zoom.us/j/86042888488?pwd=VaJZhAsi3YwtOVaHGFqkimYe0yYLIs.1)"
               link: "program/welcome//#closing-keynote---xr-gaming-exploring-future-gameplay-experiences"
-        - time: 18:30 - 18:50
+        - time: 17:45 - 18:00
           title: "Award Ceremony"
           sessions:
             - topic: 'leave your comments' 
