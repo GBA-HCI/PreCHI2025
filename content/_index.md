@@ -179,8 +179,7 @@ sections:
                 title: '[Guest Talk] Empathy-Driven Interaction Design'
                 speaker: Wei Liu
               - id: '#a-constructed-response-designing-and-choreographing-robot-arm-movements-in-collaborative-dance-improvisation'
-                title: '[CSCW] A Constructed Response: Designing and Choreographing Robot Arm
-                  Movements in Collaborative Dance Improvisation'
+                title: "[CHI25] Can AI Prompt Humans? Multimodal Agents Prompt Players' Game Actions and Show Consequences to Raise Sustainability Awareness"
                 speaker: Ray Lc
               - id: '#human-precision-medicine-interaction-public-perceptions-of-polygenic-risk-score-for-genetic-health-prediction'
                 title: '[CHI25] Human-Precision Medicine Interaction: Public Perceptions of Polygenic
