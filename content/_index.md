@@ -393,10 +393,10 @@ sections:
       title: Venue
       text: |
         The forum will be held at City University of Hong Kong (CityU), located in Kowloon Tong, Kowloon, Hong Kong.
-        | Getting to CityU | Campus Maps |
-        | --- | --- |
+        | Getting to CityU                                                                                 | Campus Maps                                                                      |
+        | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
         | Guides on the official website: [[link]](https://www.cityu.edu.hk/about/campus/getting-to-cityu) | Download PDF: [[pdf]](https://www.cityu.edu.hk/cdo/download/CampusDirectory.pdf) |
-        |  Forum guides: [[link]](https://mjrh8ymq6a.feishu.cn/docx/X5qHdmqIMoOgxrxflHTcL4UBngg) | Search for buildings: [[link]](https://www.cityu.edu.hk/about/campus/map) |
+        | Forum guides: [[link]](https://mjrh8ymq6a.feishu.cn/docx/X5qHdmqIMoOgxrxflHTcL4UBngg)            | Search for buildings: [[link]](https://www.cityu.edu.hk/about/campus/map)        |
     design:
       text:
         # Card background color (CSS class)
@@ -407,17 +407,16 @@ sections:
     content:
       title: 
       slider: |
-
-        <embed src="uploads/PreCHI Program.pdf" width="100%" height="680" type="application/pdf">
-        <hr>
         {{< carousel items="1" height="680" unit="px" duration="7000" >}}
       text: |
 
-        The program <a href="uploads/PreCHI Program.pdf" target="_blank">pdf</a>, advertising poster
+        The program <a href="uploads/PreCHI Program.pdf" target="_blank">pdf</a> below, advertising poster
         <a href="#gallery" onclick="document.querySelector('.carousel').querySelector('ol li:first-child a').click(); document.querySelector('.carousel').querySelector('ul li:first-child img').requestFullscreen();">
           <i class="fa fa-expand" aria-hidden="true"></i>
-        </a> for Pre-CHI 2025 and photos taken at [Pre-CHI 2024](https://gbahci.com/prechi/).
+        </a> and <a href="#gallery" onclick="document.querySelector('.carousel').querySelector('ol li:first-child').nextElementSibling.querySelector('a').click();document.querySelector('.carousel').querySelector('ul').classList.remove('interacted');"> photos </a> taken for Pre-CHI 2025.
       
+        <hr />
+        <embed src="uploads/PreCHI Program.pdf" width="100%" height="680" type="application/pdf">
     design:
       css_class: "bg-gray-100 dark:bg-transparent"
   - block: people

@@ -56,16 +56,18 @@
 }
 
 .carousel ol {
+    display: none;
     position: absolute;
     bottom: -10px;
     display: flex;
     justify-content: center;
     left: 50%;
-    transform: translateX(-57%);
+    transform: translateX(-52%);
     z-index: 9;
 }
 
 .carousel ol li {
+    display: none;
     list-style: none;
     padding: 0 5px;
 }
