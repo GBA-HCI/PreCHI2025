@@ -221,7 +221,7 @@ sections:
                     - Wynn Lyu (Hong Kong Productivity Council)
                     - Prof. Zhenhui Peng (Sat-Yat Sen University)
                     - Prof. Yingying She (Xiamen University)
-                    
+                    - Prof. Wei Liu (SUSTech)
         - time: 12:00 - 13:30
           hr: 1
           title: "Lunch Break"
