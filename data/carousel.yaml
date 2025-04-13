@@ -1,5 +1,4 @@
 images:
-  - image: uploads/slider/poster.jpg
   - image: uploads/slider/DSC06402.jpg
   - image: uploads/slider/DSC06290.JPG
   - image: uploads/slider/DSC06291.JPG
@@ -51,3 +50,4 @@ images:
   - image: uploads/slider/DSC8969.jpg
   - image: uploads/slider/DSC8973.jpg
   - image: uploads/slider/DSC8998.jpg
+  - image: uploads/slider/poster.jpg

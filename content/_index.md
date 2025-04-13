@@ -18,8 +18,8 @@ sections:
       title: GBA HCI Pre-CHI 2025
       text: April 12th, 2025 in City University of Hong Kong
       primary_action:
-        text: Register Now
-        url: "https://beamish-marzipan-ec0d47.netlify.app/"
+        text: View our photos
+        url: "#gallery"
       secondary_action:
         text: View our program
         url: "#program"
@@ -410,11 +410,9 @@ sections:
         {{< carousel items="1" height="680" unit="px" duration="7000" >}}
       text: |
 
-        The program <a href="uploads/PreCHI Program.pdf" target="_blank">pdf</a> below, advertising poster
-        <a href="#gallery" onclick="document.querySelector('.carousel').querySelector('ol li:first-child a').click(); document.querySelector('.carousel').querySelector('ul li:first-child img').requestFullscreen();">
-          <i class="fa fa-expand" aria-hidden="true"></i>
-        </a> and <a href="#gallery" onclick="document.querySelector('.carousel').querySelector('ol li:first-child').nextElementSibling.querySelector('a').click();document.querySelector('.carousel').querySelector('ul').classList.remove('interacted');"> photos </a> taken for Pre-CHI 2025.
-      
+        Photos taken during Pre-CHI 2025 <a href="#gallery" onclick="document.querySelector('.carousel').querySelector('ol li:first-child').querySelector('a').click();document.querySelector('.carousel').querySelector('ul').classList.remove('interacted');">[Group Photo]</a>, the advertising poster <a href="#gallery" onclick="document.querySelector('.carousel').querySelector('ol li:last-child a').click(); document.querySelector('.carousel').querySelector('ul li:last-child img').requestFullscreen();">
+          <i class="fa fa-expand" aria-hidden="true"></i> 
+        </a>, and the program <a href="uploads/PreCHI Program.pdf" target="_blank">pdf</a> below.
         <hr />
         <embed src="uploads/PreCHI Program.pdf" width="100%" height="680" type="application/pdf">
     design:

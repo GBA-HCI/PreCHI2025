@@ -41,8 +41,8 @@ header:
         dark_mode: "gba-logo-dark-mode.svg"
     button:
       enable: true
-      text: "Register Now"
-      url: "https://beamish-marzipan-ec0d47.netlify.app/"
+      text: "View Photos"
+      url: '#gallery'
     show_search: true
     show_theme_chooser: true
 
